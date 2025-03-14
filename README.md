@@ -44,7 +44,7 @@ It helps with the early detection of obesity risks, allowing for timely interven
  
 The data science approach starts with collecting and cleaning the data to ensure accuracy, focusing on eating habits, physical activity, and demographic details. Next comes exploratory data analysis to uncover patterns and relationships between lifestyle factors and obesity levels. Data visualization techniques like histograms, scatter plots, and heat maps are used to make these insights clear and easy to understand. These visual tools help highlight trends, correlations, and outliers, providing a solid foundation for making informed decisions and developing targeted health strategies.
 
-# **Objective**
+# **Model Objectives**
 
 The key objectives presented by this model are as follows:
 
