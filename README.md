@@ -70,9 +70,9 @@ Matplotlib: Creating graphs and plots.
 Seaborn: Enhancing the style of matplotlib plots.
 Scikit-learn: Linear regression analysis.
 
-* More to be added as we progress with the project
+More to be added as we progress with the project
 
-**Data Overview **
+**Data Overview**
 
 This dataset provides a comprehensive view of factors linked to obesity by combining demographic, behavioral, and health-related details. It captures key aspects such as age, gender, physical condition, and BMI classifications. It also tracks eating habits, including the consumption of high-calorie foods, vegetables, and alcohol, as well as meal frequency, snacking, water intake, and physical activity levels. This diverse range of attributes enables a detailed analysis of obesity-related factors.
 Dataset Feature Description
