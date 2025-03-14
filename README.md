@@ -123,7 +123,7 @@ The dataset provides information on individuals' obesity levels based on a varie
 
 The original dataset is of good quality with no missing values. However, it contains 24 duplicate rows, likely from synthetic generation (77% via Weka and SMOTE). We removed these duplicates, retaining unique entries, to improve reliability while preserving completeness.
 
-## **Exploratory Data Analysis (EDA)**
+# **Exploratory Data Analysis (EDA)**
 To explore the question, "What lifestyle and demographic factors are most strongly associated with obesity levels, and how can they inform targeted wellness interventions?", we conducted an exploratory data analysis of the dataset. The analysis examined key variables such as age, gender, physical activity, water intake, and eating habits to identify patterns linked to obesity. Visualizations revealed that lower physical activity and water consumption, along with poor dietary habits, are strongly associated with higher obesity levels. Additionally, certain age groups and genders showed greater risk, highlighting opportunities for targeted wellness strategies.
 
 Place link for code here
