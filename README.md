@@ -1,6 +1,5 @@
-# **Obesity Levels Based on Eating Habits and Physical Condition**
-
 ## **Data Science Institute - Cohort 5 - Team 3 Project**
+# **Obesity Levels Based on Eating Habits and Physical Condition**
 
 # **Members**
  
