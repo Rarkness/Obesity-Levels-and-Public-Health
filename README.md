@@ -80,21 +80,36 @@ Dataset Feature Description
 The dataset provides information on individuals' obesity levels based on a variety of lifestyle and health-related factors. Below is a list of the features included, along with brief descriptions:
  
 Gender: Male or Female.
+
 Age: In years.
+
 Height: In meters.
+
 Weight: In kilograms.
+
 Family_history_with_overweight: Family history of being overweight (yes/no).
+
 FAVC (Frequent Consumption of High-Calorie Food): Frequently eats high-calorie food (yes/no).
+
 FCVC (Frequency of Vegetable Consumption): Scale from 1 (low) to 3 (high), indicating how often vegetables are consumed.
+
 NCP (Number of Meals Per Day): How many main meals the person eats each day?
+
 CAEC (Consumption of Food Between Meals): How often the person eats snacks: no, sometimes, frequently, or always.
 SMOKE: Individual smokes (yes/no).
+
 CH2O (Daily Water Intake in Liters): Scale from 1 (low) to 3 (high), representing daily water consumption.
+
 SCC (Calories Consumption Monitoring): Individuals monitor their calorie intake (yes/no).
+
 FAF (Physical Activity Frequency Per Week): Scale from 0 (no activity) to 3 (high frequency).
+
 TUE (Time Using Technology Devices Per Day): Scale from 0 (low) to 2 (high), measuring daily screen time.
+
 CALC (Alcohol Consumption Frequency): How often alcohol is consumed: no, sometimes, frequently, or always.
+
 MTRANS (Mode of Transportation): Main mode of transport: public transportation, walking, automobile, or motorbike.
+
 NObeyesdad (Obesity Level Classification): The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.
 
 **Cleaning the Data**
