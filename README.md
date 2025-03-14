@@ -4,7 +4,7 @@
 
 | Name                        | GitHub                                      | LinkedIn              |
 |--------------------------------------------|-------------------------------------------------|--------------------------------------|
-| **Bitewulign Mekonnen (he/him)**           |  [bitkassa2006@gmail.com](https://github.com/bitewulign)           | https://www.linkedin.com/in/bitewulign-mekonnen/ |
+| **Bitewulign Mekonnen (he/him)**           |  https://github.com/bitewulign           | https://www.linkedin.com/in/bitewulign-mekonnen/ |
 | **Yalda Rahmati (she/her)**                | -          | - |
 | **Richard (Rick) Harkness) (he/him)**      | -              | - |
 | **Gulrukh Aqeel (she/her)**                | -        | - |
