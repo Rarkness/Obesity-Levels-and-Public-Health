@@ -99,7 +99,7 @@ The dataset provides information on individuals' obesity levels based on a varie
 
 - **FCVC (Frequency of Vegetable Consumption):** Scale from 1 (low) to 3 (high), indicating how often vegetables are consumed.
 
-- **NCP (Number of Meals Per Day):** How many main meals the person eats each day?
+- **NCP (Number of Meals Per Day):** Number of main meals the person eats each day.
 
 - **CAEC (Consumption of Food Between Meals):** How often the person eats snacks: no, sometimes, frequently, or always.
 
