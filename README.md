@@ -64,10 +64,15 @@ Classification: Machine learning models such as random forest, K nearest neighbo
 **Requirements**
 
 The following Python libraries are used in this project:
+
 NumPy: Fast matrix operations.
+
 Pandas: Analyzing and extracting insights from datasets.
+
 Matplotlib: Creating graphs and plots.
+
 Seaborn: Enhancing the style of matplotlib plots.
+
 Scikit-learn: Linear regression analysis.
 
 More to be added as we progress with the project
