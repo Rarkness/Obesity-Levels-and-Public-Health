@@ -74,8 +74,6 @@ The following Python libraries are used in this project:
 
 - Scikit-learn: Linear regression analysis.
 
-More to be added as we progress with the project
-
 # **Data Overview**
 
 This dataset provides a comprehensive view of factors linked to obesity by combining demographic, behavioral, and health-related details. It captures key aspects such as age, gender, physical condition, and BMI classifications. It also tracks eating habits, including the consumption of high-calorie foods, vegetables, and alcohol, as well as meal frequency, snacking, water intake, and physical activity levels. This diverse range of attributes enables a detailed analysis of obesity-related factors.
@@ -83,38 +81,39 @@ Dataset Feature Description
 
 The dataset provides information on individuals' obesity levels based on a variety of lifestyle and health-related factors. Below is a list of the features included, along with brief descriptions:
  
-Gender: Male or Female.
+- Gender: Male or Female.
 
-Age: In years.
+- Age: In years.
 
-Height: In meters.
+- Height: In meters.
 
-Weight: In kilograms.
+- Weight: In kilograms.
 
-Family_history_with_overweight: Family history of being overweight (yes/no).
+- Family_history_with_overweight: Family history of being overweight (yes/no).
 
-FAVC (Frequent Consumption of High-Calorie Food): Frequently eats high-calorie food (yes/no).
+- FAVC (Frequent Consumption of High-Calorie Food): Frequently eats high-calorie food (yes/no).
 
-FCVC (Frequency of Vegetable Consumption): Scale from 1 (low) to 3 (high), indicating how often vegetables are consumed.
+- FCVC (Frequency of Vegetable Consumption): Scale from 1 (low) to 3 (high), indicating how often vegetables are consumed.
 
-NCP (Number of Meals Per Day): How many main meals the person eats each day?
+- NCP (Number of Meals Per Day): How many main meals the person eats each day?
 
-CAEC (Consumption of Food Between Meals): How often the person eats snacks: no, sometimes, frequently, or always.
-SMOKE: Individual smokes (yes/no).
+- CAEC (Consumption of Food Between Meals): How often the person eats snacks: no, sometimes, frequently, or always.
 
-CH2O (Daily Water Intake in Liters): Scale from 1 (low) to 3 (high), representing daily water consumption.
+- SMOKE: Individual smokes (yes/no).
 
-SCC (Calories Consumption Monitoring): Individuals monitor their calorie intake (yes/no).
+- CH2O (Daily Water Intake in Liters): Scale from 1 (low) to 3 (high), representing daily water consumption.
 
-FAF (Physical Activity Frequency Per Week): Scale from 0 (no activity) to 3 (high frequency).
+- SCC (Calories Consumption Monitoring): Individuals monitor their calorie intake (yes/no).
 
-TUE (Time Using Technology Devices Per Day): Scale from 0 (low) to 2 (high), measuring daily screen time.
+- FAF (Physical Activity Frequency Per Week): Scale from 0 (no activity) to 3 (high frequency).
 
-CALC (Alcohol Consumption Frequency): How often alcohol is consumed: no, sometimes, frequently, or always.
+- TUE (Time Using Technology Devices Per Day): Scale from 0 (low) to 2 (high), measuring daily screen time.
 
-MTRANS (Mode of Transportation): Main mode of transport: public transportation, walking, automobile, or motorbike.
+- CALC (Alcohol Consumption Frequency): How often alcohol is consumed: no, sometimes, frequently, or always.
 
-NObeyesdad (Obesity Level Classification): The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.
+- MTRANS (Mode of Transportation): Main mode of transport: public transportation, walking, automobile, or motorbike.
+
+- NObeyesdad (Obesity Level Classification): The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.
 
 # **Cleaning the Data**
 
