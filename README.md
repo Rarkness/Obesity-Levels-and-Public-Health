@@ -32,7 +32,7 @@ Obesity affects millions worldwide, raising healthcare costs, reducing productiv
 
 # **Business Goal**
 
-The question is:  What are the key lifestyle factors (e.g., eating habits, physical activity) that contribute most to obesity levels?
+**The question is:**  What are the key lifestyle factors (e.g., eating habits, physical activity) that contribute most to obesity levels?
 
 We aim to use data science to build a predictive model that estimates obesity levels based on eating habits and physical health. This kind of model can help healthcare providers, fitness companies, insurance firms, and policymakers take more targeted action when it comes to preventing obesity.
 
@@ -64,15 +64,15 @@ Classification: Machine learning models such as random forest, K nearest neighbo
 
 The following Python libraries are used in this project:
 
-- NumPy: Fast matrix operations.
+- **NumPy:** Fast matrix operations.
 
-- Pandas: Analyzing and extracting insights from datasets.
+- **Pandas:** Analyzing and extracting insights from datasets.
 
-- Matplotlib: Creating graphs and plots.
+- **Matplotlib:** Creating graphs and plots.
 
-- Seaborn: Enhancing the style of matplotlib plots.
+- **Seaborn:** Enhancing the style of matplotlib plots.
 
-- Scikit-learn: Linear regression analysis.
+- **Scikit-learn:** Linear regression analysis.
 
 # **Data Overview**
 
@@ -81,39 +81,39 @@ Dataset Feature Description
 
 The dataset provides information on individuals' obesity levels based on a variety of lifestyle and health-related factors. Below is a list of the features included, along with brief descriptions:
  
-- Gender: Male or Female.
+- **Gender:** Male or Female.
 
-- Age: In years.
+- **Age:** In years.
 
-- Height: In meters.
+- **Height:** In meters.
 
-- Weight: In kilograms.
+- **Weight:** In kilograms.
 
-- Family_history_with_overweight: Family history of being overweight (yes/no).
+- **Family_history_with_overweight:** Family history of being overweight (yes/no).
 
-- FAVC (Frequent Consumption of High-Calorie Food): Frequently eats high-calorie food (yes/no).
+- **FAVC (Frequent Consumption of High-Calorie Food):** Frequently eats high-calorie food (yes/no).
 
-- FCVC (Frequency of Vegetable Consumption): Scale from 1 (low) to 3 (high), indicating how often vegetables are consumed.
+- **FCVC (Frequency of Vegetable Consumption):** Scale from 1 (low) to 3 (high), indicating how often vegetables are consumed.
 
-- NCP (Number of Meals Per Day): How many main meals the person eats each day?
+- **NCP (Number of Meals Per Day):** How many main meals the person eats each day?
 
-- CAEC (Consumption of Food Between Meals): How often the person eats snacks: no, sometimes, frequently, or always.
+- **CAEC (Consumption of Food Between Meals):** How often the person eats snacks: no, sometimes, frequently, or always.
 
-- SMOKE: Individual smokes (yes/no).
+- **SMOKE:** Individual smokes (yes/no).
 
-- CH2O (Daily Water Intake in Liters): Scale from 1 (low) to 3 (high), representing daily water consumption.
+- **CH2O (Daily Water Intake in Liters):** Scale from 1 (low) to 3 (high), representing daily water consumption.
 
-- SCC (Calories Consumption Monitoring): Individuals monitor their calorie intake (yes/no).
+- **SCC (Calories Consumption Monitoring):** Individuals monitor their calorie intake (yes/no).
 
-- FAF (Physical Activity Frequency Per Week): Scale from 0 (no activity) to 3 (high frequency).
+- **FAF (Physical Activity Frequency Per Week):** Scale from 0 (no activity) to 3 (high frequency).
 
-- TUE (Time Using Technology Devices Per Day): Scale from 0 (low) to 2 (high), measuring daily screen time.
+- **TUE (Time Using Technology Devices Per Day):** Scale from 0 (low) to 2 (high), measuring daily screen time.
 
-- CALC (Alcohol Consumption Frequency): How often alcohol is consumed: no, sometimes, frequently, or always.
+- **CALC (Alcohol Consumption Frequency):** How often alcohol is consumed: no, sometimes, frequently, or always.
 
-- MTRANS (Mode of Transportation): Main mode of transport: public transportation, walking, automobile, or motorbike.
+- **MTRANS (Mode of Transportation):** Main mode of transport: public transportation, walking, automobile, or motorbike.
 
-- NObeyesdad (Obesity Level Classification): The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.
+- **NObeyesdad (Obesity Level Classification):** The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.
 
 # **Cleaning the Data**
 
