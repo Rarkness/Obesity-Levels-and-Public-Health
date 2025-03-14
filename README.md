@@ -4,14 +4,12 @@
 # **Members**
  
 Bitewulign Mekonnen
-
+Gulrukh Aqeel
+Kate Antonova
+Richard Harkness
 Yalda Rahmati
 
-Richard Harkness
 
-Gulrukh Aqeel
-
-Kate Antonova
 
 # **Project Overview**
 
