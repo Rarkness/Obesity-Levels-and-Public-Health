@@ -47,10 +47,14 @@ The data science approach starts with collecting and cleaning the data to ensure
 # **Objective**
 
 The key objectives presented by this model are as follows:
-Utilize machine learning models to predict obesity levels based on lifestyle and eating habits.
-Identify key risk factors contributing to obesity.
-Provide insight for insurance and healthcare professionals, policymakers and fitness industries.
-Develop an early warning system for individuals at a risk of obesity.
+
+- Utilize machine learning models to predict obesity levels based on lifestyle and eating habits.
+
+- Identify key risk factors contributing to obesity.
+
+- Provide insight for insurance and healthcare professionals, policymakers and fitness industries.
+
+- Develop an early warning system for individuals at a risk of obesity.
 
 # **Methodology**
  
