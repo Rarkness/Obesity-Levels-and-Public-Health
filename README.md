@@ -1,4 +1,15 @@
 **Data-Driven Approach to Obesity Prevention**
+
+## Members
+
+| Name                        | Email                                      | LinkedIn              |
+|--------------------------------------------|-------------------------------------------------|--------------------------------------|
+| **Bitewulign Mekonnen (he/him)**           |  bitkassa2006@gmail.com           | https://www.linkedin.com/in/bitewulign-mekonnen/ |
+| **Yalda Rahmati (she/her)**                | -          | - |
+| **Richard (Rick) Harkness) (he/him)**      | -              | - |
+| **Gulrukh Aqeel (she/her)**                | -        | - |
+| **Kate Antonova (she/her)**                | -        | -|
+
  
 **Executive Summary**
  
