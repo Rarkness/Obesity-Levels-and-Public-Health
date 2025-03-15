@@ -112,7 +112,7 @@ The key objectives presented by this model are as follows:
 ---
 # **Methodology**
  
-First, we implement data preprocessing to clean up and prepare the data that has no missing values, and duplicates. Data exploratory analysis will be implemented to  understand feature distributions and relationships with obesity levels. To visualize the relationship between different categorical features and obesity levels, we will develop an interactive dashboard using Dash and Plotly.  The dashboard development is implemented with a dropdown menu to allow users to select the specific feature and the category percentage distribution for all, and each category.  Thus, dynamic pie charts will be generated that display the distribution of obesity levels for each selected feature. Feature selection is probably implemented to identify which features contribute the most to obesity. Classification: Machine learning models such as random forest, K nearest neighbours, others, and deep learning using CNN will be also implemented.
+First, we implement data preprocessing to clean up and prepare the data that has no missing values, and duplicates. Data exploratory analysis will be implemented to  understand feature distributions and relationships with obesity levels. To visualize the relationship between different categorical features and obesity levels, we will develop a dashboard. 
 
 ---
 # **Requirements**
