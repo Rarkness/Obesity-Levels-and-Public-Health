@@ -40,8 +40,8 @@ This business case proposes using a validated dataset and analytical models to a
 
 # **Introduction**
 
-Obesity is an escalating global health issue that significantly contributes to a range of chronic diseases, including heart disease, diabetes, and certain cancers. It is also associated with reduced life expectancy and leads to increased healthcare expenditures due to the need for long-term management of obesity-related conditions. Addressing this issue is crucial for improving public health outcomes and reducing the economic burden on healthcare systems.
-This business case delves into the promising application of the dataset titled "Estimation of Obesity Levels Based on Eating Habits and Physical Condition." By utilizing this comprehensive dataset, we aim to develop sophisticated predictive models that can accurately estimate obesity levels based on individuals' eating habits and physical conditions. These models will provide valuable insights to inform public health strategies and initiatives.
+Obesity is an escalating global health issue that significantly contributes to a range of chronic diseases, including heart disease, diabetes, and certain cancers. It is also associated with reduced life expectancy and leads to increased healthcare expenditures due to the need for long-term management of obesity-related conditions. Addressing this issue is crucial for improving public health outcomes and reducing the economic burden on healthcare systems.<br>
+This business case delves into the promising application of the dataset titled "Estimation of Obesity Levels Based on Eating Habits and Physical Condition." By utilizing this comprehensive dataset, we aim to develop sophisticated predictive models that can accurately estimate obesity levels based on individuals' eating habits and physical conditions. These models will provide valuable insights to inform public health strategies and initiatives.<br>
 With the integration of data analytics, we can enhance the effectiveness of public health campaigns by targeting specific populations at risk of obesity and tailoring interventions accordingly. Furthermore, this dataset can be leveraged to personalize health interventions, offering customized recommendations and support to individuals striving to achieve and maintain a healthy weight.
 Our primary objective is to harness the power of data to improve the prediction and prevention of obesity. By doing so, we hope to foster a healthier society, extend life expectancy, and alleviate the financial strain on healthcare systems worldwide.
 
@@ -51,7 +51,7 @@ Obesity affects millions worldwide, raising healthcare costs, reducing productiv
 
 # **Business Goal**
 
-**The question is:**  What are the key lifestyle factors (e.g., eating habits, physical activity) that contribute most to obesity levels?
+🚀 **Key Insight:**  What are the key lifestyle factors (e.g., eating habits, physical activity) that contribute most to obesity levels?
 
 We aim to use data science to build a predictive model that estimates obesity levels based on eating habits and physical health. This kind of model can help healthcare providers, fitness companies, insurance firms, and policymakers take more targeted action when it comes to preventing obesity.
 
@@ -74,11 +74,7 @@ The key objectives presented by this model are as follows:
 
 # **Methodology**
  
-First, we implement data preprocessing to clean up and prepare the data that has no missing values, and duplicates. 
-Data exploratory analysis will be implemented to  understand feature distributions and relationships with obesity levels
-To visualize the relationship between different categorical features and obesity levels, we will develop an interactive dashboard using Dash and Plotly.  The dashboard development is implemented with a dropdown menu to allow users to select the specific feature and the category percentage distribution for all, and each category.  Thus, dynamic pie charts will be generated that display the distribution of obesity levels for each selected feature.
-Feature selection is probably implemented to identify which features contribute the most to obesity. 
-Classification: Machine learning models such as random forest, K nearest neighbours, others, and deep learning using CNN will be also implemented.
+First, we implement data preprocessing to clean up and prepare the data that has no missing values, and duplicates. Data exploratory analysis will be implemented to  understand feature distributions and relationships with obesity levels. To visualize the relationship between different categorical features and obesity levels, we will develop an interactive dashboard using Dash and Plotly.  The dashboard development is implemented with a dropdown menu to allow users to select the specific feature and the category percentage distribution for all, and each category.  Thus, dynamic pie charts will be generated that display the distribution of obesity levels for each selected feature. Feature selection is probably implemented to identify which features contribute the most to obesity. Classification: Machine learning models such as random forest, K nearest neighbours, others, and deep learning using CNN will be also implemented.
 
 # **Requirements**
 
