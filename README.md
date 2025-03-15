@@ -1,7 +1,5 @@
 ![Python](https://img.shields.io/badge/python-3.9-blue)
 
-⚠️ **Note:** This dataset contains synthetic data.
-
 ## **Data Science Institute - Cohort 5 - Team 3 Project**
 # **Obesity Levels Based on Eating Habits and Physical Condition**
 
@@ -132,7 +130,7 @@ Place link for code here
 The proposed solution uses the “Dataset for estimation of obesity levels based on eating habits and physical condition” to include visualizations to highlight the key factors that contribute most to obesity and develop a predictive model that classifies individuals into seven obesity levels. The process begins with data cleaning and preprocessing, followed by identifying key factors such as diet quality, hydration, physical activity, sedentary behavior, and transport choices. The final step is creating an interactive tool or dashboard that delivers personalized health recommendations, targeted interventions, and easy monitoring for healthcare providers, fitness professionals, insurance companies, and policymakers.
 
 # **Insights and Visualizations**
-
+⚠️ **Note:** This dataset contains synthetic data.<br>
 ## Regression Plot for Height vs Weight by Obesity Level
 
 The Regression Plot for Height vs. Weight is color-coded by Obesity Level. This plot shows the relationship between height and weight, with trend lines for each obesity category. It highlights how weight increases in relation to height and how it differs across obesity levels.
