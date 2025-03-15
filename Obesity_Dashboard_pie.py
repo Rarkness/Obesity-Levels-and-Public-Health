@@ -1,3 +1,4 @@
+# importing the required libraries
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
@@ -6,7 +7,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load the dataset 
-df = pd.read_csv('data/ObesityDataSet_raw_and_data_sinthetic.csv')
+df = pd.read_csv('data/_Preprocessed_ObesityDataSet_raw_and_data_sinthetic.csv')
 
 # Selecting relevant features
 features = list(df.columns) 

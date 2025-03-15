@@ -6,12 +6,14 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load the dataset 
-df = pd.read_csv('data/ObesityDataSet_raw_and_data_sinthetic.csv')
+df = pd.read_csv('data/Cleaned_ObesityDataSet_raw_and_data_sinthetic.csv')
 
 # Selecting relevant features
-features = ['Gender', 'Age', 'Height', 'Weight', 'family_history_with_overweight', 'FAVC', 'FCVC', 'NCP', 'CAEC', 'SMOKE', 'CH2O', 'SCC', 'FAF', 'TUE', 'CALC', 'MTRANS', 'NObeyesdad']
+features = list(df.columns)
 df = df[features]
 
+numerical_cols = df.select_dtypes(['float64', 'int64']).columns
+categorical_cols = df.select_dtypes(['object']).columns[:-1]
 # Initialize the Dash app
 app = dash.Dash(__name__)
 server = app.server  # For deployment
@@ -38,7 +40,7 @@ app.layout = html.Div([
     Input('feature-dropdown', 'value')
 )
 def update_graph(selected_feature):
-    if selected_feature in ['Age', 'Height', 'Weight', 'FCVC', 'NCP', 'CH2O', 'FAF', 'TUE', 'CALC']:
+    if selected_feature in numerical_cols:#['Age', 'Height', 'Weight', 'FCVC', 'NCP', 'CH2O', 'FAF', 'TUE', 'CALC']:
         fig = px.box(df, x='NObeyesdad', y=selected_feature, color='NObeyesdad',
                      title=f'Distribution of {selected_feature} Across Obesity Levels')
     else:
