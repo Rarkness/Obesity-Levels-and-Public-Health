@@ -112,7 +112,7 @@ The key objectives presented by this model are as follows:
 ---
 # **Methodology**
  
-First, we implement data preprocessing to clean up and prepare the data that has no missing values, and duplicates. Data exploratory analysis will be implemented to  understand feature distributions and relationships with obesity levels. To visualize the relationship between different categorical features and obesity levels, we will develop a dashboard. 
+First, we implement data preprocessing to clean up and prepare the data that has no missing values, and duplicates. Data exploratory analysis will be implemented to understand feature distributions and relationships with obesity levels. Then visualize the relationship between different categorical features and obesity levels, to develop a dashboard. 
 
 ---
 # **Requirements**
@@ -130,7 +130,8 @@ The following Python libraries are used in this project:
 # **Data Overview**
 
 This dataset provides a comprehensive view of factors linked to obesity by combining demographic, behavioral, and health-related details. It captures key aspects such as age, gender, physical condition, and BMI classifications. It also tracks eating habits, including the consumption of high-calorie foods, vegetables, and alcohol, as well as meal frequency, snacking, water intake, and physical activity levels. This diverse range of attributes enables a detailed analysis of obesity-related factors.
-Dataset Feature Description
+
+**Dataset Feature Description**
 
 The dataset provides information on individuals' obesity levels based on a variety of lifestyle and health-related factors. Below is a list of the features included, along with brief descriptions:
  
@@ -155,12 +156,12 @@ The dataset provides information on individuals' obesity levels based on a varie
 ---
 # **Cleaning the Data**
 
-The original dataset is of good quality with no missing values. However, it contains 24 duplicate rows, likely from synthetic generation (77% via Weka and SMOTE). We removed these duplicates, retaining unique entries, to improve reliability while preserving completeness.
+The original dataset is of good quality with no missing values. However, it contained 24 duplicate rows, likely from synthetic generation (77% via Weka and SMOTE). We removed these duplicates, retaining unique entries, to improve reliability while preserving completeness.
 
 ---
 # **Proposed Solution**
  
-The proposed solution uses the “Dataset for estimation of obesity levels based on eating habits and physical condition” to include visualizations to highlight the key factors that contribute most to obesity and develop a predictive model that classifies individuals into seven obesity levels. The process begins with data cleaning and preprocessing, followed by identifying key factors such as diet quality, hydration, physical activity, sedentary behavior, and transport choices. The final step is creating an interactive tool or dashboard that delivers personalized health recommendations, targeted interventions, and easy monitoring for healthcare providers, fitness professionals, insurance companies, and policymakers.
+The proposed solution uses the “Dataset for estimation of obesity levels based on eating habits and physical condition” to include visualizations to highlight the key factors that contribute most to obesity and develop a predictive model that classifies individuals into seven obesity levels. The process after data cleaning and preprocessing, identifys key factors such as diet quality, hydration, physical activity, sedentary behavior, and transport choices. The final step is creating an interactive tool or dashboard that delivers personalized health recommendations, targeted interventions, and easy monitoring for healthcare providers, fitness professionals, insurance companies, and policymakers.
 
 ---
 # **Insights and Visualizations**
