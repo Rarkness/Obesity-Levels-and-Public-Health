@@ -69,13 +69,10 @@ The data science approach starts with collecting and cleaning the data to ensure
 
 The key objectives presented by this model are as follows:
 
-- Utilize machine learning models to predict obesity levels based on lifestyle and eating habits.
-
-- Identify key risk factors contributing to obesity.
-
-- Provide insight for insurance and healthcare professionals, policymakers and fitness industries.
-
-- Develop an early warning system for individuals at a risk of obesity.
+- Utilize machine learning models to predict obesity levels based on lifestyle and eating habits.<br>
+- Identify key risk factors contributing to obesity.<br>
+- Provide insight for insurance and healthcare professionals, policymakers and fitness industries.<br>
+- Develop an early warning system for individuals at a risk of obesity.<br>
 
 # **Methodology**
  
@@ -89,16 +86,12 @@ Classification: Machine learning models such as random forest, K nearest neighbo
 
 The following Python libraries are used in this project:
 
-- **NumPy:** Fast matrix operations.
-
-- **Pandas:** Analyzing and extracting insights from datasets.
-
-- **Matplotlib:** Creating graphs and plots.
-
-- **Seaborn:** Enhancing the style of matplotlib plots.
-
-- **Scikit-learn:** Linear regression analysis.
-- **Plotly & Dash:** To create interactive visualization
+- **NumPy:** Fast matrix operations.<br>
+- **Pandas:** Analyzing and extracting insights from datasets.<br>
+- **Matplotlib:** Creating graphs and plots.<br>
+- **Seaborn:** Enhancing the style of matplotlib plots.<br>
+- **Scikit-learn:** Linear regression analysis.<br>
+- **Plotly & Dash:** To create interactive visualization<br>
 
 # **Data Overview**
 
@@ -107,39 +100,23 @@ Dataset Feature Description
 
 The dataset provides information on individuals' obesity levels based on a variety of lifestyle and health-related factors. Below is a list of the features included, along with brief descriptions:
  
-- **Gender:** Male or Female.
-
-- **Age:** In years.
-
-- **Height:** In meters.
-
-- **Weight:** In kilograms.
-
-- **Family_history_with_overweight:** Family history of being overweight (yes/no).
-
-- **FAVC (Frequent Consumption of High-Calorie Food):** Frequently eats high-calorie food (yes/no).
-
-- **FCVC (Frequency of Vegetable Consumption):** Scale from 1 (low) to 3 (high), indicating how often vegetables are consumed.
-
-- **NCP (Number of Meals Per Day):** Number of main meals the person eats each day.
-
-- **CAEC (Consumption of Food Between Meals):** How often the person eats snacks: no, sometimes, frequently, or always.
-
-- **SMOKE:** Individual smokes (yes/no).
-
-- **CH2O (Daily Water Intake in Liters):** Scale from 1 (low) to 3 (high), representing daily water consumption.
-
-- **SCC (Calories Consumption Monitoring):** Individuals monitor their calorie intake (yes/no).
-
-- **FAF (Physical Activity Frequency Per Week):** Scale from 0 (no activity) to 3 (high frequency).
-
-- **TUE (Time Using Technology Devices Per Day):** Scale from 0 (low) to 2 (high), measuring daily screen time.
-
-- **CALC (Alcohol Consumption Frequency):** How often alcohol is consumed: no, sometimes, frequently, or always.
-
-- **MTRANS (Mode of Transportation):** Main mode of transport: public transportation, walking, automobile, or motorbike.
-
-- **NObeyesdad (Obesity Level Classification):** The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.
+- **Gender:** Male or Female.<br>
+- **Age:** In years.<br>
+- **Height:** In meters.<br>
+- **Weight:** In kilograms.<br>
+- **Family_history_with_overweight:** Family history of being overweight (yes/no).<br>
+- **FAVC (Frequent Consumption of High-Calorie Food):** Frequently eats high-calorie food (yes/no).<br>
+- **FCVC (Frequency of Vegetable Consumption):** Scale from 1 (low) to 3 (high), indicating how often vegetables are consumed.<br>
+- **NCP (Number of Meals Per Day):** Number of main meals the person eats each day.<br>
+- **CAEC (Consumption of Food Between Meals):** How often the person eats snacks: no, sometimes, frequently, or always.<br>
+- **SMOKE:** Individual smokes (yes/no).<br>
+- **CH2O (Daily Water Intake in Liters):** Scale from 1 (low) to 3 (high), representing daily water consumption.<br>
+- **SCC (Calories Consumption Monitoring):** Individuals monitor their calorie intake (yes/no).<br>
+- **FAF (Physical Activity Frequency Per Week):** Scale from 0 (no activity) to 3 (high frequency).<br>
+- **TUE (Time Using Technology Devices Per Day):** Scale from 0 (low) to 2 (high), measuring daily screen time.<br>
+- **CALC (Alcohol Consumption Frequency):** How often alcohol is consumed: no, sometimes, frequently, or always.<br>
+- **MTRANS (Mode of Transportation):** Main mode of transport: public transportation, walking, automobile, or motorbike.<br>
+- **NObeyesdad (Obesity Level Classification):** The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.<br>
 
 # **Cleaning the Data**
 
