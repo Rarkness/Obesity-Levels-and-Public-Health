@@ -28,15 +28,11 @@
 
 # **Team Members**
  
-Bitewulign Mekonnen
-
-Gulrukh Aqeel
-
-Kate Antonova
-
-Richard Harkness
-
-Yalda Rahmati
+Bitewulign Mekonnen<br>
+Gulrukh Aqeel<br>
+Kate Antonova<br>
+Richard Harkness<br>
+Yalda Rahmati<br>
 
 # **Project Overview**
 
