@@ -172,9 +172,6 @@ The Regression Plot for Height vs. Weight is color-coded by Obesity Level. This 
 
 ![Regression Plot](images/RegressionPlot_Height_vs_Weight_by_Obesity_Level.png)
 
-
-Proposed sections for Charts, Graphs and Plots
-
 ---
 # ⚙️ **Implementation**
  
