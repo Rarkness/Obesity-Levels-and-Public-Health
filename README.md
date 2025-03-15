@@ -1,6 +1,9 @@
 ![Python](https://img.shields.io/badge/python-3.9-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)<br>
 ## **Data Science Institute - Cohort 5 - Team 3 Project**
+
+---
+
 # **Obesity Levels Based on<br>Eating Habits and Physical Condition**
 ---
 # **Table of Contents**
