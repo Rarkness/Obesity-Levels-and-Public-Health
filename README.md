@@ -82,16 +82,16 @@ Our intended goal is to help wellness providers and organizations identify the m
 We plan to use a widely recognized dataset from the UC Irvine Machine Learning Repository. The dataset includes synthetic data, designed to reflect real-world obesity trends while maintaining privacy. Our current focus is on understanding its structure, and we anticipate making further adjustments to how we preprocess and use the data.
 
 ### Data Cleaning and Preparation
-We will be cleaning and preparing the dataset by handling missing values, encoding categorical variables, and normalizing numerical features. These steps may evolve as we explore different preprocessing techniques and adapt our approach to improve model performance.
+We have cleaning and prepared the dataset by handling missing values, and normalizing numerical features. This cleaning may evolve as we explore different preprocessing techniques and adapt our approach to improve model performance.
 
 ### Modeling Approach and Objectives
-We intend to implement machine learning models, with an initial focus on a Random Forest Classifier to predict obesity levels and analyze feature importance. These modeling choices are subject to change as we experiment with different algorithms and evaluate their performance.
+We intend to implement learning models, with an initial focus to predict obesity levels and analyze feature importance. These modeling choices are subject to change as we experiment with different algorithms and evaluate their performance.
 
 ### Evaluation
-We will evaluate our models using metrics such as accuracy, precision, recall, and confusion matrices. Our evaluation strategy may be revised as we test different models and techniques to ensure robust and reliable outcomes.
+We will evaluate our models using various metrics. Our evaluation strategy may be revised as we test different models and techniques to ensure robust and reliable outcomes.
 
 ### Implementation
-Our plan includes deploying the final solution as an interactive Streamlit dashboard, where users can explore obesity-related insights in real time. The deployment and design of this dashboard will be refined as we finalize our models and visualizations.
+Our plan includes deploying the final solution as a static dashboard, where users can explore obesity-related insights. The dashboard will be refined as we finalize our models and visualizations.
 
 ### Results and Conclusions
 Our conclusions and recommendations will be developed as we complete our analysis. We anticipate that physical activity and water consumption will be key factors, but our findings may shift as we explore the data more thoroughly.
