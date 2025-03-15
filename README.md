@@ -102,9 +102,9 @@ Our conclusions and recommendations will be developed as we complete our analysi
 ---
 # **Model Objectives**
 
-The key objectives presented by this model are as follows:
+🚀 The key objectives presented by this model are as follows:
 
-- Utilize machine learning models to predict obesity levels based on lifestyle and eating habits.<br>
+- Utilize learning models to predict obesity levels based on lifestyle and eating habits.<br>
 - Identify key risk factors contributing to obesity.<br>
 - Provide insight for insurance and healthcare professionals, policymakers and fitness industries.<br>
 - Develop an early warning system for individuals at a risk of obesity.<br>
@@ -112,7 +112,7 @@ The key objectives presented by this model are as follows:
 ---
 # **Methodology**
  
-First, we implement data preprocessing to clean up and prepare the data that has no missing values, and duplicates. Data exploratory analysis will be implemented to understand feature distributions and relationships with obesity levels. Then visualize the relationship between different categorical features and obesity levels, to develop a dashboard. 
+We preprocess the data by cleaning it, ensuring there are no missing values or duplicates. Then, we perform exploratory data analysis to understand feature distributions and their relationships with obesity levels. Finally, we visualize these relationships between categorical features and obesity levels to support the development of a dashboard.
 
 ---
 # **Requirements**
