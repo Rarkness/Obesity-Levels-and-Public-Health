@@ -77,6 +77,7 @@ The following Python libraries are used in this project:
 - **Seaborn:** Enhancing the style of matplotlib plots.
 
 - **Scikit-learn:** Linear regression analysis.
+- **Plotly & Dash:** To create interactive visualization
 
 # **Data Overview**
 
