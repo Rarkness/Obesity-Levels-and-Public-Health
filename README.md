@@ -87,7 +87,7 @@ We plan to use a widely recognized dataset from the UC Irvine Machine Learning R
 ### 🧹 Data Cleaning and Preparation
 We have cleaning and prepared the dataset by handling missing values, and normalizing numerical features. This cleaning may evolve as we explore different preprocessing techniques and adapt our approach to improve model performance.
 
-### 🤖 Modeling Approach and Objectives
+### 🏗️ Modeling Approach and Objectives
 We intend to implement learning models, with an initial focus to predict obesity levels and analyze feature importance. These modeling choices are subject to change as we experiment with different algorithms and evaluate their performance.
 
 ### 📊 Evaluation
