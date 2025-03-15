@@ -75,28 +75,28 @@ It helps with the early detection of obesity risks, allowing for timely interven
  
 We are adopting a structured Data Science Approach (DSA) to explore key lifestyle and demographic factors associated with obesity. The following outlines our initial plan, which will evolve as we continue to refine our methods and results.
 
-### Problem Understanding
+### 🔎 Problem Understanding
 We are in the process of clearly defining the problem, which focuses on predicting and analyzing obesity levels based on lifestyle behaviors and demographic factors. As we progress, we will continue to refine our understanding and focus areas.
 
-### Business Goal
+### 🎯 Business Goal
 Our intended goal is to help wellness providers and organizations identify the most influential factors contributing to obesity. This will guide them in designing effective health interventions and personalized wellness programs. We will revisit and adjust these goals as we uncover insights.
 
-### Data Collection and Overview
+### 📂 Data Collection and Overview
 We plan to use a widely recognized dataset from the UC Irvine Machine Learning Repository. The dataset includes synthetic data, designed to reflect real-world obesity trends while maintaining privacy. Our current focus is on understanding its structure, and we anticipate making further adjustments to how we preprocess and use the data.
 
-### Data Cleaning and Preparation
+### 🧹 Data Cleaning and Preparation
 We have cleaning and prepared the dataset by handling missing values, and normalizing numerical features. This cleaning may evolve as we explore different preprocessing techniques and adapt our approach to improve model performance.
 
-### Modeling Approach and Objectives
+### 🤖 Modeling Approach and Objectives
 We intend to implement learning models, with an initial focus to predict obesity levels and analyze feature importance. These modeling choices are subject to change as we experiment with different algorithms and evaluate their performance.
 
-### Evaluation
+### 📊 Evaluation
 We will evaluate our models using various metrics. Our evaluation strategy may be revised as we test different models and techniques to ensure robust and reliable outcomes.
 
-### Implementation
+### 🛠️ Implementation
 Our plan includes deploying the final solution as a static dashboard, where users can explore obesity-related insights. The dashboard will be refined as we finalize our models and visualizations.
 
-### Results and Conclusions
+### 💡 Results and Conclusions
 Our conclusions and recommendations will be developed as we complete our analysis.
 
 ---
