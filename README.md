@@ -5,6 +5,27 @@
 ## **Data Science Institute - Cohort 5 - Team 3 Project**
 # **Obesity Levels Based on Eating Habits and Physical Condition**
 
+## Table of Contents
+
+- [Team Members](#team-members)
+- [Project Overview](#project-overview)
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [Business Goal](#business-goal)
+- [Expected Benefits](#expected-benefits)
+- [Data Science Approach](#data-science-approach)
+- [Model Objectives](#model-objectives)
+- [Methodology](#methodology)
+- [Requirements](#requirements)
+- [Data Overview](#data-overview)
+- [Cleaning the Data](#cleaning-the-data)
+- [Proposed Solution](#proposed-solution)
+- [Implementation](#implementation)
+- [Next Steps](#next-steps)
+- [Risks and Mitigations](#risks-and-mitigations)
+- [Results](#results)
+- [Conclusion](#conclusion)
+
 # **Team Members**
  
 Bitewulign Mekonnen
