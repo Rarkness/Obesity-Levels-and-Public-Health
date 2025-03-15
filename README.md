@@ -4,7 +4,7 @@
 
 ---
 
-# 🩺 **Obesity Levels Based on<br>Eating Habits and Physical Condition** 🔬
+# 🩺 **Obesity Levels Based on<br>Eating Habits & Physical Condition** 🔬
 ---
 # **Table of Contents**
 
