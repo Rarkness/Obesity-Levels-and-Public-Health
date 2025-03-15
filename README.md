@@ -72,6 +72,37 @@ It helps with the early detection of obesity risks, allowing for timely interven
  
 The data science approach starts with collecting and cleaning the data to ensure accuracy, focusing on eating habits, physical activity, and demographic details. Next comes exploratory data analysis to uncover patterns and relationships between lifestyle factors and obesity levels. Data visualization techniques like histograms, scatter plots, and heat maps are used to make these insights clear and easy to understand. These visual tools help highlight trends, correlations, and outliers, providing a solid foundation for making informed decisions and developing targeted health strategies.
 
+## Data Science Approach (Planned Process)
+
+We are adopting a structured Data Science Approach (DSA) to explore key lifestyle and demographic factors associated with obesity. The following outlines our initial plan, which will evolve as we continue to refine our methods and results.
+
+### Problem Understanding
+We are in the process of clearly defining the problem, which focuses on predicting and analyzing obesity levels based on lifestyle behaviors and demographic factors. As we progress, we will continue to refine our understanding and focus areas.
+
+### Business Goal
+Our intended goal is to help wellness providers and organizations identify the most influential factors contributing to obesity. This will guide them in designing effective health interventions and personalized wellness programs. We will revisit and adjust these goals as we uncover insights.
+
+### Data Collection and Overview
+We plan to use a widely recognized dataset from the UC Irvine Machine Learning Repository. The dataset includes synthetic data, designed to reflect real-world obesity trends while maintaining privacy. Our current focus is on understanding its structure, and we anticipate making further adjustments to how we preprocess and use the data.
+
+### Data Cleaning and Preparation
+We will be cleaning and preparing the dataset by handling missing values, encoding categorical variables, and normalizing numerical features. These steps may evolve as we explore different preprocessing techniques and adapt our approach to improve model performance.
+
+### Exploratory Data Analysis (EDA)
+Our next step is to conduct comprehensive EDA to better understand the distributions, correlations, and patterns within the dataset. We plan to use visualizations such as histograms, violin plots, heatmaps, and scatter plots to uncover insights. As we continue, our focus areas may shift based on preliminary findings.
+
+### Modeling Approach and Objectives
+We intend to implement machine learning models, with an initial focus on a Random Forest Classifier to predict obesity levels and analyze feature importance. These modeling choices are subject to change as we experiment with different algorithms and evaluate their performance.
+
+### Evaluation
+We will evaluate our models using metrics such as accuracy, precision, recall, and confusion matrices. Our evaluation strategy may be revised as we test different models and techniques to ensure robust and reliable outcomes.
+
+### Implementation
+Our plan includes deploying the final solution as an interactive Streamlit dashboard, where users can explore obesity-related insights in real time. The deployment and design of this dashboard will be refined as we finalize our models and visualizations.
+
+### Results and Conclusions
+Our conclusions and recommendations will be developed as we complete our analysis. We anticipate that physical activity and water consumption will be key factors, but our findings may shift as we explore the data more thoroughly.
+
 ---
 # **Model Objectives**
 
