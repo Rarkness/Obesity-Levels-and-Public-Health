@@ -29,11 +29,11 @@
 ---
 # **Team Members**
  
-**Bitewulign Mekonnen**<br>
-**Gulrukh Aqeel**<br>
-**Kate Antonova**<br>
-**Richard Harkness**<br>
-**Yalda Rahmati**<br>
+🧮 **Bitewulign Mekonnen**<br>
+📈 **Gulrukh Aqeel**<br>
+📊 **Kate Antonova**<br>
+🗂️ **Richard Harkness**<br>
+📉 **Yalda Rahmati**<br>
 
 ---
 # **Project Overview**
