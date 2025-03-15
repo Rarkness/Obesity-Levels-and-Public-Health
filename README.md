@@ -31,12 +31,14 @@
 **Kate Antonova**<br>
 **Richard Harkness**<br>
 **Yalda Rahmati**<br>
-
+---
 # **Project Overview**
 
 As part of the Data Science Certificate program at the University of Toronto’s Data Sciences Institute, we selected the Estimation of Obesity Levels Based on Eating Habits and Physical Condition dataset and conducted a compelling study on which lifestyle factors have the greatest impact on obesity levels, applying the analytical and technical skills we developed throughout the course.
 This study offers practical advice for public health authorities, health and wellness providers, and insurers looking to address obesity-related risks.
 This business case proposes using a validated dataset and analytical models to accurately estimate and predict obesity levels based on eating habits, physical conditions and other factors. 
+
+---
 
 # **Introduction**
 
