@@ -94,7 +94,7 @@ We will evaluate our models using various metrics. Our evaluation strategy may b
 Our plan includes deploying the final solution as a static dashboard, where users can explore obesity-related insights. The dashboard will be refined as we finalize our models and visualizations.
 
 ### Results and Conclusions
-Our conclusions and recommendations will be developed as we complete our analysis. We anticipate that physical activity and water consumption will be key factors, but our findings may shift as we explore the data more thoroughly.
+Our conclusions and recommendations will be developed as we complete our analysis.
 
 ---
 # **Model Objectives**
