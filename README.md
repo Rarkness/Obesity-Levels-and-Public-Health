@@ -143,7 +143,7 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 ---
 # **Insights and Visualizations**
-⚠️ **Note:** This dataset contains synthetic data.<br>
+⚠️ **Note:** This dataset includes synthetically generated data based on real-world patterns.<br>
 ## Regression Plot for Height vs Weight by Obesity Level
 
 The Regression Plot for Height vs. Weight is color-coded by Obesity Level. This plot shows the relationship between height and weight, with trend lines for each obesity category. It highlights how weight increases in relation to height and how it differs across obesity levels.
