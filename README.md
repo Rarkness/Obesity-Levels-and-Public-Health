@@ -84,9 +84,6 @@ We plan to use a widely recognized dataset from the UC Irvine Machine Learning R
 ### Data Cleaning and Preparation
 We will be cleaning and preparing the dataset by handling missing values, encoding categorical variables, and normalizing numerical features. These steps may evolve as we explore different preprocessing techniques and adapt our approach to improve model performance.
 
-### Exploratory Data Analysis (EDA)
-Our next step is to conduct comprehensive EDA to better understand the distributions, correlations, and patterns within the dataset. We plan to use visualizations such as histograms, violin plots, heatmaps, and scatter plots to uncover insights. As we continue, our focus areas may shift based on preliminary findings.
-
 ### Modeling Approach and Objectives
 We intend to implement machine learning models, with an initial focus on a Random Forest Classifier to predict obesity levels and analyze feature importance. These modeling choices are subject to change as we experiment with different algorithms and evaluate their performance.
 
