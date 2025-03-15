@@ -3,7 +3,7 @@
 ## **Data Science Institute - Cohort 5 - Team 3 Project**
 # **Obesity Levels Based on<br>Eating Habits and Physical Condition**
 ---
-### Table of Contents
+# Table of Contents
 
 - [Team Members](#team-members)
 - [Project Overview](#project-overview)
