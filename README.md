@@ -3,7 +3,7 @@
 ## **Data Science Institute - Cohort 5 - Team 3 Project**
 
 ---
-:thermometer:
+
 # 🩺 **Obesity Levels Based on<br>Eating Habits & Physical Condition** 🔬
 ---
 # **Table of Contents**
