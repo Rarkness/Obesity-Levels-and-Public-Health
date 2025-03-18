@@ -8,8 +8,6 @@
 
 ---
 
-## Table of Contents
-
 ## 📑 Table of Contents
 
 - [Team Members](#team-members)
@@ -30,7 +28,6 @@
 - [Risks and Mitigations](#risks-and-mitigations)
 - [Results](#results)
 - [Conclusion](#conclusion)
-
 
 ---
 
