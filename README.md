@@ -172,7 +172,7 @@ The Regression Plot for Height vs. Weight is color-coded by Obesity Level. This 
 
 ![Regression Plot](images/RegressionPlot_Height_vs_Weight_by_Obesity_Level.png)
 
-[Click here for Interactive Pie Chart for Obesity Dataset](https://obesity-dashboard-live-2.onrender.com/)
+[Click here for obesity Dataset Interactive Pie Chart visualization](https://obesity-dashboard-live-2.onrender.com/)
 This interactive Pie Chart visually represents obesity distribution across different features for every feature and category. Using Plotly, the visualization allows users to explore proportions dynamically, with hover effects displaying detailed information for each segment.
 
 ---
