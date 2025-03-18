@@ -35,7 +35,7 @@
 # **Team Members**
  
 🧮 **Bitewulign Mekonnen** https://github.com/bitewulign/<br>
-📈 **Gulrukh Aqeel**<br>
+📈 **Gulrukh Aqeel** http://linkedin.com/in/gulrukhaqeel/<br>
 📊 **Kate Antonova** https://www.linkedin.com/in/kate-antonova/<br>
 🗂️ **Richard Harkness** https://www.linkedin.com/in/rharkness/<br>
 📉 **Yalda Rahmati** https://www.linkedin.com/in/yalda-rahmati-/<br>
