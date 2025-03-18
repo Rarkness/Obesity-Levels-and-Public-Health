@@ -271,6 +271,15 @@ These charts collectively highlight the multifaceted nature of obesity, influenc
 [Click here for obesity Dataset Interactive Pie Chart visualization](https://obesity-dashboard-live-2.onrender.com/)
 This interactive Pie Chart visually represents obesity distribution across different features for every feature and category. Using Plotly, the visualization allows users to explore proportions dynamically, with hover effects displaying detailed information for each segment.
 
+interpretion of cat bar plots vs Nobeysdad: 
+- Gender does not seem to have a drastic impact, but males may be slightly more prone to higher obesity levels.
+- There is a strong correlation between family history and obesity, indicating genetic or lifestyle factors play a role.
+- Frequent consumption of high-caloric food strongly contributes to obesity.
+- Frequent snacking (Always) does not necessarily increase the proportion of Obesity Type III.However, snacking "Sometimes" has a high proportion of severe obesity. So it seems occasional snacking might be riskier than always snacking, possibly due to uncontrolled eating patterns.
+- Smokers and non-smokers have a similar distribution of obesity levels. So smoking habits in this dataset do not significantly impact obesity.
+- Monitoring calorie intake may contribute to maintaining a healthier weight and reducing extreme obesity cases.However, some individuals who track calories still experience obesity, suggesting that monitoring alone is not always sufficient. Other factors (like physical activity, metabolism, and food quality) also play a role.
+-  Alcohol consumption may influence obesity but is not the sole factor.
+- Walking is associated with lower extreme obesity (Type III), but Public Transportation users still have significant obesity cases. People using public transport may still have a sedentary lifestyle, contributing to obesity. Automobile users might be at risk due to a more sedentary routine, but they are not the only ones with high obesity levels. So Transportation mode alone may not determine obesity—other lifestyle factors (e.g., diet, physical activity) are crucial.
 ---
 
 <a name="implementation"></a>
