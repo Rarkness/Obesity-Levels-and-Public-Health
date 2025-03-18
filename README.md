@@ -140,7 +140,7 @@ The following Python libraries are used in this project:
 - **Plotly & Dash:** To create interactive visualization<br>
 
 ---
-
+<a name="data-overview"></a>
 # 🗂️**Data Overview**
 
 This dataset provides a comprehensive view of factors linked to obesity by combining demographic, behavioral, and health-related details. It captures key aspects such as age, gender, physical condition, and BMI classifications. It also tracks eating habits, including the consumption of high-calorie foods, vegetables, and alcohol, as well as meal frequency, snacking, water intake, and physical activity levels. This diverse range of attributes enables a detailed analysis of obesity-related factors.
