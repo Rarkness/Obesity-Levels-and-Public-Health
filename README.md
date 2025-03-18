@@ -50,7 +50,7 @@ This business case proposes using a validated dataset and analytical models to a
 
 ---
 
-# 📚 **Introduction**
+# 📚**Introduction**
 
 Obesity is an escalating global health issue that significantly contributes to a range of chronic diseases, including heart disease, diabetes, and certain cancers. It is also associated with reduced life expectancy and leads to increased healthcare expenditures due to the need for long-term management of obesity-related conditions. Addressing this issue is crucial for improving public health outcomes and reducing the economic burden on healthcare systems.<br>
 
@@ -61,13 +61,13 @@ Our primary objective is to harness the power of data to improve the prediction 
 
 ---
 
-# 🚨 **Problem Statement**
+# 🚨**Problem Statement**
  
 Obesity affects millions worldwide, raising healthcare costs, reducing productivity, and increasing the risk of chronic diseases like diabetes and heart disease. Traditional methods, like self-reports and BMI, often miss key factors. A data-driven approach that considers eating habits, physical activity, and lifestyle offers a clearer picture. Early identification of risks can help individuals and organizations take proactive steps to improve health outcomes.
 
 ---
 
-# 🏆 **Business Goal**
+# 🏆**Business Goal**
 
 🚀 **Key Insight:**  What are the key lifestyle factors (e.g., eating habits, physical activity) that contribute most to obesity levels?
 
@@ -111,7 +111,7 @@ Our conclusions and recommendations will be developed as we complete our analysi
 
 ---
 
-# 🧬 **Model Objectives**
+# 🧬**Model Objectives**
 
 🚀 The key objectives presented by this model are as follows:
 
@@ -122,13 +122,13 @@ Our conclusions and recommendations will be developed as we complete our analysi
 
 ---
 
-# 📐 **Methodology**
+# 📐**Methodology**
  
 We preprocess the data by cleaning it, ensuring there are no missing values or duplicates. Then, we perform exploratory data analysis to understand feature distributions and their relationships with obesity levels. Finally, we visualize these relationships between categorical features and obesity levels to support the development of a dashboard.
 
 ---
 
-# 📋 **Requirements**
+# 📋**Requirements**
 
 The following Python libraries are used in this project:
 
@@ -141,7 +141,7 @@ The following Python libraries are used in this project:
 
 ---
 
-# 🗂️ **Data Overview**
+# 🗂️**Data Overview**
 
 This dataset provides a comprehensive view of factors linked to obesity by combining demographic, behavioral, and health-related details. It captures key aspects such as age, gender, physical condition, and BMI classifications. It also tracks eating habits, including the consumption of high-calorie foods, vegetables, and alcohol, as well as meal frequency, snacking, water intake, and physical activity levels. This diverse range of attributes enables a detailed analysis of obesity-related factors.
 
@@ -169,19 +169,19 @@ The dataset provides information on individuals' obesity levels based on a varie
 
 ---
 
-# 🧼 **Cleaning the Data**
+# 🧼**Cleaning the Data**
 
 The original dataset is of good quality with no missing values. However, it contained 24 duplicate rows, likely from synthetic generation (77% via Weka and SMOTE). We removed these duplicates, retaining unique entries, to improve reliability while preserving completeness.
 
 ---
 
-# ⛑️ **Proposed Solution**
+# ⛑️**Proposed Solution**
  
 The proposed solution uses the “Dataset for estimation of obesity levels based on eating habits and physical condition” to include visualizations to highlight the key factors that contribute most to obesity and develop a predictive model that classifies individuals into seven obesity levels. The process after data cleaning and preprocessing, identifys key factors such as diet quality, hydration, physical activity, sedentary behavior, and transport choices. The final step is creating an interactive tool or dashboard that delivers personalized health recommendations, targeted interventions, and easy monitoring for healthcare providers, fitness professionals, insurance companies, and policymakers.
 
 ---
 
-# 🎨 **Insights and Visualizations**
+# 🎨**Insights and Visualizations**
 ⚠️ **Note:** This dataset includes synthetically generated data based on real-world patterns.<br>
 
 ---
@@ -216,31 +216,31 @@ This interactive Pie Chart visually represents obesity distribution across diffe
 
 ---
 
-# ⚙️ **Implementation**
+# ⚙️**Implementation**
  
 The implementation starts with applying data analytics techniques to the dataset to build an accurate and reliable model. Once the model is ready, the next step is to make it easy for health professionals and organizations to assess and manage obesity risk. The goal is to keep it simple and intuitive so users can quickly get the insights they need.
 
 ---
 
-# 🪜 **Next Steps**
+# 🪜**Next Steps**
  
 The next steps start with running exploratory data analysis to get a better understanding of how different variables are connected. After that, the focus will be on training and validating the predictive models to make sure they’re accurate and reliable. Once the model is solid. The plan is to provide stakeholders, including health professionals and the public, with clear insights and visualizations through a comprehensive README on GitHub. This will include key information, data interpretations, and graphs to help them better understand and address obesity risks.
 
 ---
 
-# 🚧 **Risks and Mitigations**
+# 🚧**Risks and Mitigations**
  
 There are a few risks to consider, but each has a clear plan to address them. First is data quality, if the data is incomplete or inaccurate, it can lead to unreliable results. To avoid this, the data will go through rigorous cleaning and validation to ensure it’s consistent and accurate before analysis. Another risk is bias in the analysis, which can happen if the dataset isn’t diverse enough. To minimize this, the data will be carefully reviewed to make sure it includes a wide range of demographic and lifestyle factors, helping to produce fair and balanced insights. Privacy is also a major concern, especially when dealing with health-related data. To protect personal information, the project will follow strict data protection regulations and best practices, ensuring all data remains confidential and secure throughout the process.
 
 ---
 
-# 🏁 **Results**
+# 🏁**Results**
 
 The model aims to create a positive impact and raise awareness across several key sectors. In healthcare, it supports preventive measures and enables more targeted interventions. For governments and policymakers, it offers evidence-based insights to guide public health initiatives and inform policy decisions. Individuals also benefit by gaining valuable knowledge that empowers them to make informed lifestyle choices and take control of their health.
 
 ---
 
-# 💡 **Conclusion**
+# 💡**Conclusion**
 
 By using this dataset to estimate obesity levels, we can support smarter, data-driven decisions in healthcare, wellness, insurance, and public policy. The insights gained from the analysis not only have the potential to lower obesity rates but also to reduce long-term healthcare costs and improve overall productivity. Clear visualizations and accessible information empower stakeholders, from healthcare providers and insurance professionals to policymakers and individuals, to take proactive steps toward prevention and intervention. Ultimately, this approach promotes healthier lifestyles, supports early risk detection, and contributes to better public health outcomes on a larger scale.
 
