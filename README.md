@@ -169,6 +169,15 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 ---
 
+### Obesity levels by Gender
+
+This grouped bar chart illustrates the distribution of obesity levels among males and females, making it easy to compare how each gender is represented across different obesity categories. The visualization addresses whether there are significant differences in obesity prevalence between men and women. It reveals that males are more frequently represented in the more severe obesity categories, while females tend to appear more often in the normal weight and lower obesity levels. These insights can inform wellness programs and support the development of gender-specific health interventions. The plot was created using Seaborn's grouped bar chart functionality.
+
+
+![Bar Chart](images/Obesity_Levels_by_Gender_Bar_Seaborn.png)
+
+---
+
 ### Height vs Weight Regression by Obesity Level
 
 This regression plot illustrates the relationship between height and weight across different obesity categories. Each obesity level is represented with a separate trend line, making it easy to compare how weight typically changes with height depending on the obesity classification. The plot reveals that individuals in higher obesity categories generally have higher weights for a given height compared to those in lower categories. This highlights weight as a key factor in distinguishing between obesity levels. The visualization, styled with an accessible color palette, helps to clearly demonstrate how physical measurements like height and weight interact in relation to obesity severity, providing valuable insights for health assessments and targeted interventions.
