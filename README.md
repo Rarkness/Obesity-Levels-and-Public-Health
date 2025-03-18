@@ -216,7 +216,7 @@ This interactive Pie Chart visually represents obesity distribution across diffe
 
 ---
 
-# :gear:**Implementation**
+# :gear:-**Implementation**
 
 The implementation starts with applying data analytics techniques to the dataset to build an accurate and reliable model. Once the model is ready, the next step is to make it easy for health professionals and organizations to assess and manage obesity risk. The goal is to keep it simple and intuitive so users can quickly get the insights they need.
 
