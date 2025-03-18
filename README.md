@@ -8,30 +8,27 @@
 
 ---
 
-<h2>📑 Table of Contents</h2>
+## 📑 Table of Contents
 
-<ul>
-  <li><a href="#team-members">Team Members</a></li>
-  <li><a href="#project-overview">Project Overview</a></li>
-  <li><a href="#introduction">Introduction</a></li>
-  <li><a href="#problem-statement">Problem Statement</a></li>
-  <li><a href="#business-goal">Business Goal</a></li>
-  <li><a href="#expected-benefits">Expected Benefits</a></li>
-  <li><a href="#data-science-approach">Data Science Approach</a></li>
-  <li><a href="#model-objectives">Model Objectives</a></li>
-  <li><a href="#methodology">Methodology</a></li>
-  <li><a href="#requirements">Requirements</a></li>
-  <li><a href="#data-overview">Data Overview</a></li>
-  <li><a href="#cleaning-the-data">Cleaning the Data</a></li>
-  <li><a href="#proposed-solution">Proposed Solution</a></li>
-  <li><a href="#insights-and-visualizations">Insights and Visualizations</a></li>
-  <li><a href="#implementation">Implementation</a></li>
-  <li><a href="#next-steps">Next Steps</a></li>
-  <li><a href="#risks-and-mitigations">Risks and Mitigations</a></li>
-  <li><a href="#results">Results</a></li>
-  <li><a href="#conclusion">Conclusion</a></li>
-</ul>
-
+- [Team Members](#team-members)
+- [Project Overview](#project-overview)
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [Business Goal](#business-goal)
+- [Expected Benefits](#expected-benefits)
+- [Data Science Approach](#data-science-approach)
+- [Model Objectives](#model-objectives)
+- [Methodology](#methodology)
+- [Requirements](#requirements)
+- [Data Overview](#data-overview)
+- [Cleaning the Data](#cleaning-the-data)
+- [Proposed Solution](#proposed-solution)
+- [Insights and Visualizations](#insights-and-visualizations)
+- [Implementation](#implementation)
+- [Next Steps](#next-steps)
+- [Risks and Mitigations](#risks-and-mitigations)
+- [Results](#results)
+- [Conclusion](#conclusion)
 
 ---
 
