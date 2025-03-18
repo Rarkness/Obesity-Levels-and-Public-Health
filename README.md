@@ -210,6 +210,22 @@ This grouped bar chart visualizes the relationship between transportation choice
 ![Bar Plot](images/Mode_of_Transportation_Bar_Seaborn.png)
 
 ---
+The following image presents a series of box plots illustrating various distributions by obesity level. Each plot compares different metrics across categories such as Normal Weight, Overweight Levels I and II, and Obesity Types I, II, and III.
+
+- **Age Distribution:** Shows how age varies across obesity levels, with a wider range in higher obesity categories.
+- **Height Distribution:** Displays height differences, with slight variations across categories.
+- **Weight Distribution:** Clearly indicates increasing weight with higher obesity levels.
+- **FCVC (Frequency of Consumption Vegetables):** Examines vegetable consumption frequency, showing similar medians across categories.
+- **NCP (Number of Meals Per Day):** Highlights the number of main meals, with some variation in higher obesity levels.
+- **CH2O (Daily Water Intake in Liters):** Shows water consumption, with a consistent median across categories.
+- **FAF (Physical Activity Frequency Per Week):** Displays physical activity frequency, with slight decreases in higher obesity levels.
+- **TUE (Time Using Technology Devices Per Day):** Illustrates technology usage time, with a slight increase in higher obesity levels.
+
+Overall, these plots provide insights into how various factors correlate with different obesity levels.
+
+![Box Plot](images/Box_plot_for_numerical_Variables.png)
+
+---
 
 [Click here for obesity Dataset Interactive Pie Chart visualization](https://obesity-dashboard-live-2.onrender.com/)
 This interactive Pie Chart visually represents obesity distribution across different features for every feature and category. Using Plotly, the visualization allows users to explore proportions dynamically, with hover effects displaying detailed information for each segment.
