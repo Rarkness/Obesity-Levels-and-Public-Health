@@ -181,7 +181,7 @@ This regression plot illustrates the relationship between height and weight acro
 
 This grouped bar chart visualizes the relationship between transportation choices and obesity levels. It compares how frequently individuals in different obesity categories use various modes of transport, such as walking, public transportation, motorbike, and car. The chart reveals that individuals who walk or use public transportation tend to be in lower obesity categories, suggesting they may lead more active lifestyles. In contrast, those who primarily rely on cars or motorbikes are more frequently classified in higher obesity levels. This insight highlights the potential health benefits of promoting active commuting options to reduce obesity risks.
 
-![Bar Plot](images/Mode_of_Transportation_BarSeaborn.png)
+![Bar Plot](images/Mode_of_Transportation_Bar_Seaborn.png)
 
 ---
 
