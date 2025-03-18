@@ -75,13 +75,13 @@ We aim to use data science to build a predictive model that estimates obesity le
 
 ---
 
-# 🎯 **Expected Benefits**
+# 🎯**Expected Benefits**
  
 It helps with the early detection of obesity risks, allowing for timely interventions that can reduce long-term healthcare costs. Insurance companies and corporate wellness programs can use it to categorize policyholders or employees by risk level, making health initiatives more targeted and effective. Healthcare providers can support preventive care and deliver personalized treatments, while governments and policymakers gain evidence-based insights to guide public health campaigns and shape policy. In the fitness and wellness space, it enhances personalized health plans, and for individuals, it provides valuable insights to make informed decisions about their health and lifestyle.
 
 ---
 
-# 🤖 **Data Science Approach**
+# 🤖**Data Science Approach**
  
 We are adopting a structured Data Science Approach (DSA) to explore key lifestyle and demographic factors associated with obesity. The following outlines our initial plan, which will evolve as we continue to refine our methods and results.
 
