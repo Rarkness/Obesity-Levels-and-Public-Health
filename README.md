@@ -10,6 +10,8 @@
 
 ## Table of Contents
 
+## 📑 Table of Contents
+
 - [Team Members](#team-members)
 - [Project Overview](#project-overview)
 - [Introduction](#introduction)
