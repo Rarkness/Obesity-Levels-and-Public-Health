@@ -226,6 +226,46 @@ Overall, these plots provide insights into how various factors correlate with di
 ![Box Plot](images/Box_plot_for_numerical_Variables.png)
 
 ---
+The next image presents a series of bar charts analyzing various factors by obesity level. Each chart provides insights into how different variables correlate with obesity.
+
+**Gender Distribution**
+
+- **Observation:** Both genders show a similar distribution across obesity levels, with a slight increase in higher obesity levels for males.
+- **Insight:** Gender alone may not be a strong predictor of obesity, but there are subtle differences worth exploring further.
+
+**Family History with Overweight**
+- **Observation:** Individuals with a family history of being overweight are more prevalent in higher obesity categories.
+- **Insight:** Genetic or familial factors may play a significant role in obesity risk.
+
+**Frequency of Eating Vegetables (FAVC)**
+- **Observation:** Those who do not frequently consume vegetables tend to have higher obesity levels.
+- **Insight:** Diet, particularly vegetable intake, appears to be linked to obesity, highlighting the importance of dietary habits.
+
+**Consumption of High-Calorie Food (CAEC)**
+- **Observation:** Higher consumption of high-calorie foods correlates with increased obesity levels.
+- **Insight:** Frequent consumption of high-calorie foods is a strong indicator of higher obesity levels.
+
+**Smoking Habits (SMOKE)**
+- **Observation:** Smoking does not show a strong correlation with obesity levels.
+-  **Insight:** Smoking may not be a significant factor in determining obesity, though it has other health implications.
+
+**Caloric Sweet Consumption (SCC)**
+- **Observation:** Higher consumption of caloric sweets is associated with higher obesity levels.
+- **Insight:** Reducing caloric sweet intake could be beneficial in managing obesity.
+
+**Alcohol Consumption (CALC)**
+- **Observation:** Frequent alcohol consumption is more common in higher obesity levels.
+- **Insight:** Alcohol intake may contribute to obesity, suggesting moderation could be beneficial.
+
+**Mode of Transportation (MTRANS)**
+- **Observation:** Individuals using public transportation or walking tend to have lower obesity levels compared to those using automobiles.
+- **Insight:** Active transportation methods like walking may help in maintaining a healthier weight.
+Overall Analysis
+
+These charts collectively highlight the multifaceted nature of obesity, influenced by dietary habits, family history, and lifestyle choices. Addressing these factors holistically could be key in managing and preventing obesity.
+
+![grouped Bar Plot](images/Grouped_Barplot_for_Obesity_level.png)
+---
 
 [Click here for obesity Dataset Interactive Pie Chart visualization](https://obesity-dashboard-live-2.onrender.com/)
 This interactive Pie Chart visually represents obesity distribution across different features for every feature and category. Using Plotly, the visualization allows users to explore proportions dynamically, with hover effects displaying detailed information for each segment.
