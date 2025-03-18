@@ -172,9 +172,9 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 This regression plot illustrates the relationship between height and weight across different obesity categories. Each obesity level is represented with a separate trend line, making it easy to compare how weight typically changes with height depending on the obesity classification. The plot reveals that individuals in higher obesity categories generally have higher weights for a given height compared to those in lower categories. This highlights weight as a key factor in distinguishing between obesity levels. The visualization, styled with an accessible color palette, helps to clearly demonstrate how physical measurements like height and weight interact in relation to obesity severity, providing valuable insights for health assessments and targeted interventions.
 
----
-
 ![Regression Plot](images/RegressionPlot_Height_vs_Weight_by_Obesity_Level.png)
+
+---
 
 [Click here for obesity Dataset Interactive Pie Chart visualization](https://obesity-dashboard-live-2.onrender.com/)
 This interactive Pie Chart visually represents obesity distribution across different features for every feature and category. Using Plotly, the visualization allows users to explore proportions dynamically, with hover effects displaying detailed information for each segment.
