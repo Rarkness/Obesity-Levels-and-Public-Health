@@ -140,7 +140,7 @@ The following Python libraries are used in this project:
 - **Plotly & Dash:** To create interactive visualization<br>
 
 ---
-
+<a name="data-overview"></a>
 # 🗂️**Data Overview**
 
 This dataset provides a comprehensive view of factors linked to obesity by combining demographic, behavioral, and health-related details. It captures key aspects such as age, gender, physical condition, and BMI classifications. It also tracks eating habits, including the consumption of high-calorie foods, vegetables, and alcohol, as well as meal frequency, snacking, water intake, and physical activity levels. This diverse range of attributes enables a detailed analysis of obesity-related factors.
@@ -175,6 +175,7 @@ The original dataset is of good quality with no missing values. However, it cont
 
 ---
 
+<a name="proposed-solution"></a>
 # ⛑️**Proposed Solution**
  
 The proposed solution uses the “Dataset for estimation of obesity levels based on eating habits and physical condition” to include visualizations to highlight the key factors that contribute most to obesity and develop a predictive model that classifies individuals into seven obesity levels. The process after data cleaning and preprocessing, identifys key factors such as diet quality, hydration, physical activity, sedentary behavior, and transport choices. The final step is creating an interactive tool or dashboard that delivers personalized health recommendations, targeted interventions, and easy monitoring for healthcare providers, fitness professionals, insurance companies, and policymakers.
@@ -272,6 +273,7 @@ This interactive Pie Chart visually represents obesity distribution across diffe
 
 ---
 
+<a name="implementation"></a>
 # ⚙️**Implementation**
 
 The implementation starts with applying data analytics techniques to the dataset to build an accurate and reliable model. Once the model is ready, the next step is to make it easy for health professionals and organizations to assess and manage obesity risk. The goal is to keep it simple and intuitive so users can quickly get the insights they need.
