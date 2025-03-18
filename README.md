@@ -6,7 +6,7 @@
 
 # 🩺 **Obesity Levels Based on<br>Eating Habits & Physical Condition** 🔬
 ---
-# **Table of Contents**
+## Table of Contents
 
 - [Team Members](#team-members)
 - [Project Overview](#project-overview)
@@ -26,6 +26,7 @@
 - [Risks and Mitigations](#risks-and-mitigations)
 - [Results](#results)
 - [Conclusion](#conclusion)
+
 ---
 # **Team Members**
  
