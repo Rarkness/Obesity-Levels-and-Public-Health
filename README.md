@@ -22,7 +22,7 @@
 - [Requirements](#requirements)
 - [Data Overview](#data-overview)
 - [Cleaning the Data](#cleaning-the-data)
-- [Proposed Solution](#⛑proposed-solution)
+- [Proposed Solution](#proposed-solution)
 - [Insights and Visualizations](#insights-and-visualizations)
 - [Implementation](#implementation)
 - [Next Steps](#next-steps)
