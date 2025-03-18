@@ -168,6 +168,14 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 ⚠️ **Note:** This dataset includes synthetically generated data based on real-world patterns.<br>
 
 ---
+
+### Mode of Transportation Across Obesity Levels
+
+This grouped bar chart visualizes the relationship between transportation choices and obesity levels. It compares how frequently individuals in different obesity categories use various modes of transport, such as walking, public transportation, motorbike, and car. The chart reveals that individuals who walk or use public transportation tend to be in lower obesity categories, suggesting they may lead more active lifestyles. In contrast, those who primarily rely on cars or motorbikes are more frequently classified in higher obesity levels. This insight highlights the potential health benefits of promoting active commuting options to reduce obesity risks.
+
+![Bar Plot](images/Mode_of_Transportation_Bar_Seaborn.png)
+
+---
 ### Height vs Weight Regression by Obesity Level
 
 This regression plot illustrates the relationship between height and weight across different obesity categories. Each obesity level is represented with a separate trend line, making it easy to compare how weight typically changes with height depending on the obesity classification. The plot reveals that individuals in higher obesity categories generally have higher weights for a given height compared to those in lower categories. This highlights weight as a key factor in distinguishing between obesity levels. The visualization, styled with an accessible color palette, helps to clearly demonstrate how physical measurements like height and weight interact in relation to obesity severity, providing valuable insights for health assessments and targeted interventions.
