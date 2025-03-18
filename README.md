@@ -170,10 +170,8 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 ---
 ### Height vs Weight Regression by Obesity Level
 
-This regression plot illustrates the relationship between height and weight, separated by obesity categories. Trend lines for each category make it easy to compare how weight typically changes with height across different obesity levels. A colorblind-friendly palette ensures clarity for all viewers.<br>
-Insight Provided: The regression lines reveal distinct patterns in the relationship between height and weight for each obesity level. Individuals in higher obesity categories generally have higher weights regardless of height, while those in lower obesity categories follow a different trend. This highlights weight as a key distinguishing factor between obesity classifications. The visualization aids in understanding how physical measurements relate to obesity severity.<br>
-Plot Type: Regression Plot<br>
-Library Used: Seaborn
+This regression plot illustrates the relationship between height and weight across different obesity categories. Each obesity level is represented with a separate trend line, making it easy to compare how weight typically changes with height depending on the obesity classification. The plot reveals that individuals in higher obesity categories generally have higher weights for a given height compared to those in lower categories. This highlights weight as a key factor in distinguishing between obesity levels. The visualization, styled with an accessible color palette, helps to clearly demonstrate how physical measurements like height and weight interact in relation to obesity severity, providing valuable insights for health assessments and targeted interventions.
+
 ---
 
 ![Regression Plot](images/RegressionPlot_Height_vs_Weight_by_Obesity_Level.png)
