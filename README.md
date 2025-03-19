@@ -231,7 +231,45 @@ This packed circle chart, created using Altair, visualizes the most common obesi
 <img src="images/Obesity_by_Age_Gender_Altair_PackedCircle.png" alt="Bar Chart" height="400">
 
 ---
+# Demographic Features vs. Obesity Level
+This visualization explores the relationship between demographic features (age and gender) and obesity levels. It consists of two plots:
+- **Age** Distribution Across Obesity Levels (Boxplot)
+- **Gender** Distribution Across Obesity Levels (Stacked Bar Chart)
 
+## Age Distribution Across Obesity Levels
+- The top plot is a **boxplot** showing the age distribution across different obesity levels.
+- Each box represents the interquartile range (IQR), with whiskers extending to show variability outside the upper and lower quartiles.
+- Outliers are marked as individual points.
+
+### Key Observations:
+The median age varies across different obesity levels, indicating how different weight categories are distributed across age groups.
+- **Insufficient_Weight** : Individuals in this category tend to be younger, with the median age around 20 years. There are some outliers who are older, but the majority fall between 18-25 years old.
+- **Normal_Weight**: Slightly broader distribution than the underweight group, but still concentrated in younger ages.
+- **Overweight (Level I & II)**: A wider age range is observed, with more individuals in their mid-20s to early 30s.Overweight Level II shows a more spread-out age range, indicating that weight gain happens at different ages.
+- **Obesity (Type I, II, III)**: The median age for Obesity Type I and II is around 30 years, with some individuals reaching their late 30s and early 40s.Obesity Type III (Severe Obesity) has the widest age range, spanning from early 20s to over 50 years old.This suggests that severe obesity is seen across different age groups, but younger individuals are also at risk.The presence of outliers at older ages indicates that obesity persists into later life stages for some individuals.
+#### Implication: 
+Obesity is more prevalent in older age groups, but younger individuals are also affected.
+The higher the obesity level, the more spread-out the age distribution, suggesting different risk factors at different ages.
+
+## Gender Distribution Across Obesity Levels
+- The bottom plot is a **stacked bar chart** that visualizes gender distribution for each obesity category.
+- It allows comparison of obesity levels between **male** and **female** participants.
+### Key Observations:
+- **Males** tend to be more prevalent in severe obesity levels, while **females** are more evenly distributed.
+- **Insufficient_Weight & Normal_Weigh**: These categories have a relatively balanced gender distribution, though females slightly outnumber males.
+- **Overweight (Level I & II)**: More males than females appear in these categories, suggesting that men are more likely to be overweight.
+- **Obesity (Type I, II, III)**: The proportion of males increases significantly in severe obesity levels.Obesity Type III (Most Severe) has the highest number of males, indicating a potential gender-related difference in obesity trends.
+ ### Implication: 
+- Men tend to have a higher prevalence of obesity than women, especially in severe obesity categories.
+ - Women are more evenly distributed across weight categories, while men are more concentrated in overweight and obesity levels.
+- Gender differences in obesity may be linked to lifestyle, metabolism, or other health factors.
+#### Overall Summary
+- Younger individuals are more likely to be underweight or normal weight.
+- Middle-aged individuals show the highest prevalence of obesity, with a broad range of ages affected.
+- Males are more affected by severe obesity, while females have a more balanced distribution.
+
+![image.png](attachment:image.png)
+---
 ### Age vs Weight by Obesity Level
 
 <details>
