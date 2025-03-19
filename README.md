@@ -299,7 +299,7 @@ Overall, these plots provide insights into how various factors correlate with di
 </p>
 </details>
 
-<img src="images/Box_plot_for_numerical_Variables.png" alt="Box Plot" height="400">
+<img src="images/Box_plot_for_numerical_Variables.png" alt="Box Plot" width="600">
 
 ---
 
@@ -350,7 +350,7 @@ These charts collectively highlight the multifaceted nature of obesity, influenc
 </p>
 </details>
 
-<img src="images/Grouped_Barplot_for_Obesity_level.png" alt="Grouped Bar Plot" height="400">
+<img src="images/Grouped_Barplot_for_Obesity_level.png" alt="Grouped Bar Plot" width="600">
 
 ---
 
