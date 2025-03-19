@@ -153,8 +153,9 @@ The following Python libraries are used in this project:
 This dataset provides a comprehensive view of factors linked to obesity by combining demographic, behavioral, and health-related details. It captures key aspects such as age, gender, physical condition, and BMI classifications. It also tracks eating habits, including the consumption of high-calorie foods, vegetables, and alcohol, as well as meal frequency, snacking, water intake, and physical activity levels. This diverse range of attributes enables a detailed analysis of obesity-related factors.
 
 <details>
-  <summary>👉 Click here to read the description</summary> 
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
 
+<p>
 **Dataset Feature Description**
 
 The dataset provides information on individuals' obesity levels based on a variety of lifestyle and health-related factors. Below is a list of the features included, along with brief descriptions:
@@ -177,6 +178,7 @@ The dataset provides information on individuals' obesity levels based on a varie
 - **MTRANS (Mode of Transportation):** Main mode of transport: public transportation, walking, automobile, or motorbike.<br>
 - **NObeyesdad (Obesity Level Classification):** The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.<br>
 
+</p>
 </details>
 
 ---
