@@ -215,7 +215,12 @@ This regression plot illustrates the relationship between height and weight acro
 
 ### Mode of Transportation Across Obesity Levels
 
+<details>
+   <summary>Click to read the description</summary>
+
 This grouped bar chart visualizes the relationship between transportation choices and obesity levels. It compares how frequently individuals in different obesity categories use various modes of transport, such as walking, public transportation, motorbike, and car. The chart reveals that individuals who walk or use public transportation tend to be in lower obesity categories, suggesting they may lead more active lifestyles. In contrast, those who primarily rely on cars or motorbikes are more frequently classified in higher obesity levels. This insight highlights the potential health benefits of promoting active commuting options to reduce obesity risks.
+
+<details>
 
 ![Bar Plot](images/Mode_of_Transportation_Bar_Seaborn.png)
 
@@ -223,12 +228,20 @@ This grouped bar chart visualizes the relationship between transportation choice
 
 ### Physical Activity Frequency Across Obesity Levels
 
+<details>
+   <summary>Click to read the description</summary>
+
 This radar plot displays the normalized average physical activity frequency per week across different obesity categories using a circular spider layout. The distance from the center represents activity levels, scaled as a percentage of the most active group (100%). Groups closer to the center indicate lower activity, often corresponding to higher obesity severity. This visualization highlights the inverse relationship between physical activity and obesity severity, showing that individuals in higher obesity categories typically engage in less physical activity. These insights emphasize the importance of promoting physical activity to reduce obesity risk and improve health outcomes. For insurance companies, understanding these patterns can inform risk assessments, guide premium calculations, and support the development of targeted wellness programs aimed at reducing long-term healthcare costs. The plot was created using a radar (spider) chart with Matplotlib’s polar plot functionality.
+
+<details>
 
 ![Bar Plot](images/Physical_Activity_Frequency.png)
 
 ---
 The following image presents a series of box plots illustrating various distributions by obesity level. Each plot compares different metrics across categories such as Normal Weight, Overweight Levels I and II, and Obesity Types I, II, and III.
+
+<details>
+   <summary>Click to read the description</summary>
 
 - **Age Distribution:** Shows how age varies across obesity levels, with a wider range in higher obesity categories.
 - **Height Distribution:** Displays height differences, with slight variations across categories.
@@ -241,10 +254,15 @@ The following image presents a series of box plots illustrating various distribu
 
 Overall, these plots provide insights into how various factors correlate with different obesity levels.
 
+<details>
+
 ![Box Plot](images/Box_plot_for_numerical_Variables.png)
 
 ---
 The next image presents a series of bar charts analyzing various factors by obesity level. Each chart provides insights into how different variables correlate with obesity.
+
+<details>
+   <summary>Click to read the description</summary>
 
 **Gender Distribution**
 
@@ -282,11 +300,16 @@ Overall Analysis
 
 These charts collectively highlight the multifaceted nature of obesity, influenced by dietary habits, family history, and lifestyle choices. Addressing these factors holistically could be key in managing and preventing obesity.
 
+<details>
+
 ![grouped Bar Plot](images/Grouped_Barplot_for_Obesity_level.png)
 ---
 
 [Click here for obesity Dataset Interactive Pie Chart visualization](https://obesity-dashboard-live-2.onrender.com/)
 This interactive Pie Chart visually represents obesity distribution across different features for every feature and category. Using Plotly, the visualization allows users to explore proportions dynamically, with hover effects displaying detailed information for each segment.
+
+<details>
+   <summary>Click to read the description</summary>
 
 interpretion of cat bar plots vs Nobeysdad: 
 - Gender does not seem to have a drastic impact, but males may be slightly more prone to higher obesity levels.
@@ -297,6 +320,9 @@ interpretion of cat bar plots vs Nobeysdad:
 - Monitoring calorie intake may contribute to maintaining a healthier weight and reducing extreme obesity cases.However, some individuals who track calories still experience obesity, suggesting that monitoring alone is not always sufficient. Other factors (like physical activity, metabolism, and food quality) also play a role.
 -  Alcohol consumption may influence obesity but is not the sole factor.
 - Walking is associated with lower extreme obesity (Type III), but Public Transportation users still have significant obesity cases. People using public transport may still have a sedentary lifestyle, contributing to obesity. Automobile users might be at risk due to a more sedentary routine, but they are not the only ones with high obesity levels. So Transportation mode alone may not determine obesity—other lifestyle factors (e.g., diet, physical activity) are crucial.
+
+<details>
+
 ---
 
 <a name="implementation"></a>
