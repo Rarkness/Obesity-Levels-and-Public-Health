@@ -349,6 +349,21 @@ This grouped bar chart visualizes the relationship between transportation choice
 
 ---
 
+### Obesity by Food Between Meals
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+
+This bar chart shows obesity levels segmented by the frequency of food consumption between meals. The x-axis represents different categories of food consumption between meals, while the y-axis represents the percentage of individuals within each obesity level. The bars are stacked - which is indicating proportion of each obesity level for each category of food consumption.
+
+</p>
+</details>
+
+<img src="images/obesity_by_food_between_meals.png" alt="Bar Plot" height="400">
+
+---
+
 ### Physical Activity Frequency Across Obesity Levels
 
 <details>
