@@ -201,6 +201,31 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 ---
 
+### Top 10 Important Features in Predicting Obesity Level
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+
+This bar chart visualizes the top 10 most important features that influence obesity level prediction. The importance score represents the contribution of each feature to the model. Understanding these features helps in identifying key factors contributing to obesity and designing better intervention strategies!
+
+Key Observations:
+Weight is the most significant factor in determining obesity.
+Age, Food Consumption (FCVC), and Height also play notable roles.
+Gender is an important factor but not as influential as physical attributes like weight and height.
+Physical activity (FAF) and water intake (CH2O) have moderate influence.
+Visualization Details:
+The y-axis lists the feature names, and the x-axis represents their importance score.
+The chart is sorted in descending order, highlighting the most influential features at the top.
+
+</p>
+</details>
+
+
+<img src="https://github.com/user-attachments/assets/6eb2467c-8561-4a8c-9ee7-9cbacb20f67f" alt="feature_importance" height="400">
+
+---
+
 ### Obesity Levels by Gender
 
 <details>
@@ -213,7 +238,6 @@ This grouped bar chart illustrates the distribution of obesity levels among male
 </details>
 
 <img src="images/Obesity_Levels_by_Gender_Bar_Seaborn.png" alt="Bar Chart" height="400">
-
 
 ---
 
@@ -439,31 +463,6 @@ interpretion of cat bar plots vs Nobeysdad:
 
 </p>
 </details>
-
----
-### Top 10 Important Features in Predicting Obesity Level
-
-<details>
-  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
-<p>
-
-This bar chart visualizes the top 10 most important features that influence obesity level prediction. The importance score represents the contribution of each feature to the model. Understanding these features helps in identifying key factors contributing to obesity and designing better intervention strategies!
-
-Key Observations:
-Weight is the most significant factor in determining obesity.
-Age, Food Consumption (FCVC), and Height also play notable roles.
-Gender is an important factor but not as influential as physical attributes like weight and height.
-Physical activity (FAF) and water intake (CH2O) have moderate influence.
-Visualization Details:
-The y-axis lists the feature names, and the x-axis represents their importance score.
-The chart is sorted in descending order, highlighting the most influential features at the top.
-
-</p>
-</details>
-
-
-<img src="https://github.com/user-attachments/assets/6eb2467c-8561-4a8c-9ee7-9cbacb20f67f" alt="feature_importance" height="400">
-
 
 ---
 <a name="implementation"></a>
