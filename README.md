@@ -279,10 +279,8 @@ The higher the obesity level, the more spread-out the age distribution, suggesti
 
 <img src="https://github.com/user-attachments/assets/be4e03e3-97be-4d9b-81e8-9ff0e68d143c" alt="demographic_features_vs_obesity" height="500">
 
-
-
-
 ---
+
 ### Age vs Weight by Obesity Level
 
 <details>
@@ -310,7 +308,6 @@ This regression plot illustrates the relationship between height and weight acro
 </details>
 
 <img src="images/RegressionPlot_Height_vs_Weight_by_Obesity_Level.png" alt="Regression Plot" height="400">
-
 
 ---
 
@@ -465,7 +462,8 @@ The chart is sorted in descending order, highlighting the most influential featu
 </details>
 
 
-![feature_importance](https://github.com/user-attachments/assets/6eb2467c-8561-4a8c-9ee7-9cbacb20f67f)
+<img src="https://github.com/user-attachments/assets/6eb2467c-8561-4a8c-9ee7-9cbacb20f67f" alt="feature_importance" height="400">
+
 
 ---
 <a name="implementation"></a>
