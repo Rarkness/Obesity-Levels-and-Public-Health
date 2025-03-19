@@ -260,6 +260,9 @@ This radar plot displays the normalized average physical activity frequency per 
 ![Bar Plot](images/Physical_Activity_Frequency.png)
 
 ---
+
+### Distributions by Obesity Level
+
 The following image presents a series of box plots illustrating various distributions by obesity level. Each plot compares different metrics across categories such as Normal Weight, Overweight Levels I and II, and Obesity Types I, II, and III.
 
 <details>
@@ -283,6 +286,9 @@ Overall, these plots provide insights into how various factors correlate with di
 ![Box Plot](images/Box_plot_for_numerical_Variables.png)
 
 ---
+
+### Various Factors by Obesity Level
+
 The next image presents a series of bar charts analyzing various factors by obesity level. Each chart provides insights into how different variables correlate with obesity.
 
 <details>
@@ -326,7 +332,7 @@ Overall Analysis
 These charts collectively highlight the multifaceted nature of obesity, influenced by dietary habits, family history, and lifestyle choices. Addressing these factors holistically could be key in managing and preventing obesity.
 
 </p>
-</p>details>
+</details>
 
 ![grouped Bar Plot](images/Grouped_Barplot_for_Obesity_level.png)
 
@@ -350,7 +356,7 @@ interpretion of cat bar plots vs Nobeysdad:
 - Walking is associated with lower extreme obesity (Type III), but Public Transportation users still have significant obesity cases. People using public transport may still have a sedentary lifestyle, contributing to obesity. Automobile users might be at risk due to a more sedentary routine, but they are not the only ones with high obesity levels. So Transportation mode alone may not determine obesity—other lifestyle factors (e.g., diet, physical activity) are crucial.
 
 </p>
-</p>details>
+</details>
 
 ---
 
