@@ -138,12 +138,13 @@ We preprocess the data by cleaning it, ensuring there are no missing values or d
 
 The following Python libraries are used in this project:
 
-- **NumPy:** Fast matrix operations.<br>
-- **Pandas:** Analyzing and extracting insights from datasets.<br>
-- **Matplotlib:** Creating graphs and plots.<br>
-- **Seaborn:** Enhancing the style of matplotlib plots.<br>
-- **Scikit-learn:** Linear regression analysis.<br>
-- **Plotly & Dash:** To create interactive visualization<br>
+- **NumPy:** Used for numerical computing and array operations.<br>
+- **Pandas:** Analyzing and extracting insights from data.<br>
+- **Matplotlib:** Used for creating static, animated, and interactive plots.<br>
+- **Seaborn:** Used for creating statistical data visualizations.<br>
+- **Scikit-learn:** Library for machine learning and data analysis.<br>
+- **Plotly & Dash:** Plotly for interactive visualizations; Dash builds interactive apps and dashboards.<br>
+- **Altair:** A declarative statistical visualization library for Python.<br>
 
 ---
 <a name="data-overview"></a>
