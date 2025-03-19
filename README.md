@@ -340,7 +340,7 @@ These charts collectively highlight the multifaceted nature of obesity, influenc
 
 ### Interactive Pie Charts Showing Obesity Distribution by Feature and Category
 
-[Click here for obesity Dataset Interactive Pie Chart visualization](https://obesity-dashboard-live-2.onrender.com/)
+[Click Here for Interactive Pie Chart](https://obesity-dashboard-live-2.onrender.com/)
 This interactive Pie Chart visually represents obesity distribution across different features for every feature and category. Using Plotly, the visualization allows users to explore proportions dynamically, with hover effects displaying detailed information for each segment.
 
 <details>
