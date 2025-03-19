@@ -87,7 +87,6 @@ We are adopting a structured Data Science Approach (DSA) to explore key lifestyl
 
 <details>
   <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
-
 <p>
  
 ### 🔎 Problem Understanding
@@ -113,6 +112,7 @@ Our plan includes deploying the final solution as a static dashboard, where user
 
 ### 💡 Results and Conclusions
 Our conclusions and recommendations will be developed as we complete our analysis.
+
 </p>
 </details>
 
