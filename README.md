@@ -200,7 +200,7 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 ---
 
-### Obesity levels by Gender
+### Obesity Levels by Gender
 
 <details>
   <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
@@ -228,6 +228,21 @@ This packed circle chart, created using Altair, visualizes the most common obesi
 </details>
 
 <img src="images/Obesity_by_Age_Gender_Altair_PackedCircle.png" alt="Bar Chart" height="400">
+
+---
+
+### Age vs Weight by Obesity Level
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+ 
+This scatter plot, created using Plotly Express, visualizes the relationship between age and weight, with points color-coded by obesity levels and sized by height. The X-axis represents age, and the Y-axis shows weight, making it easy to interpret patterns at a glance. This visualization helps stakeholders identify high-risk groups, such as individuals over 40 with weights exceeding 80kg, who are more likely to fall into higher obesity categories. The insights can guide wellness providers and healthcare professionals in developing targeted, age-specific interventions to address obesity risks effectively.
+
+</p>
+</details>
+
+<img src="images/Age_vs_Weight_by_Obesity_Level.png" alt="Bar Chart" height="400">
 
 ---
 
