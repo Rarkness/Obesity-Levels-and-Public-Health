@@ -232,6 +232,9 @@ This packed circle chart, created using Altair, visualizes the most common obesi
 
 ---
 # Demographic Features vs. Obesity Level
+
+![demographic_features_vs_obesity](https://github.com/user-attachments/assets/be4e03e3-97be-4d9b-81e8-9ff0e68d143c)
+
 This visualization explores the relationship between demographic features (age and gender) and obesity levels. It consists of two plots:
 - **Age** Distribution Across Obesity Levels (Boxplot)
 - **Gender** Distribution Across Obesity Levels (Stacked Bar Chart)
@@ -268,7 +271,7 @@ The higher the obesity level, the more spread-out the age distribution, suggesti
 - Middle-aged individuals show the highest prevalence of obesity, with a broad range of ages affected.
 - Males are more affected by severe obesity, while females have a more balanced distribution.
 
-![image.png](attachment:image.png)
+
 ---
 ### Age vs Weight by Obesity Level
 
