@@ -211,7 +211,7 @@ This grouped bar chart illustrates the distribution of obesity levels among male
 </p>
 </details>
 
-<img src="images/Obesity_Levels_by_Gender_Bar_Seaborn.png" alt="Bar Chart" width="400">
+<img src="images/Obesity_Levels_by_Gender_Bar_Seaborn.png" alt="Bar Chart" height="400">
 
 
 ---
