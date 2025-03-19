@@ -111,7 +111,7 @@ Our plan includes deploying the final solution as a static dashboard, where user
 
 ### 💡 Results and Conclusions
 Our conclusions and recommendations will be developed as we complete our analysis.
-<details>
+
 ---
 
 # 🧬**Model Objectives**
