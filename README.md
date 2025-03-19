@@ -256,20 +256,6 @@ This packed circle chart, created using Altair, visualizes the most common obesi
 ---
 
 
-### Demographic Features vs Obesity
-
-<details>
-  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
-<p>
-
-This bar chart shows obesity levels segmented by the frequency of food consumption between meals. The x-axis represents different categories of food consumption between meals, while the y-axis represents the percentage of individuals within each obesity level. The bars are stacked - which is indicating proportion of each obesity level for each category of food consumption.
-
-</p>
-</details>
-
-<img src="images/demographic_features_vs_obesity.png" alt="Bar Chart" height="400">
-
-
 ### Demographic Features vs. Obesity Level
 
 <details>
@@ -291,6 +277,7 @@ The median age varies across different obesity levels, indicating how different 
 - **Normal_Weight**: Slightly broader distribution than the underweight group, but still concentrated in younger ages.
 - **Overweight (Level I & II)**: A wider age range is observed, with more individuals in their mid-20s to early 30s.Overweight Level II shows a more spread-out age range, indicating that weight gain happens at different ages.
 - **Obesity (Type I, II, III)**: The median age for Obesity Type I and II is around 30 years, with some individuals reaching their late 30s and early 40s.Obesity Type III (Severe Obesity) has the widest age range, spanning from early 20s to over 50 years old.This suggests that severe obesity is seen across different age groups, but younger individuals are also at risk.The presence of outliers at older ages indicates that obesity persists into later life stages for some individuals.
+
 #### Implication: 
 Obesity is more prevalent in older age groups, but younger individuals are also affected.
 The higher the obesity level, the more spread-out the age distribution, suggesting different risk factors at different ages.
