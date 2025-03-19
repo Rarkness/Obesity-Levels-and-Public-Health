@@ -113,6 +113,7 @@ Our plan includes deploying the final solution as a static dashboard, where user
 Our conclusions and recommendations will be developed as we complete our analysis.
 
 </details>
+
 ---
 
 # 🧬**Model Objectives**
@@ -149,6 +150,9 @@ The following Python libraries are used in this project:
 
 This dataset provides a comprehensive view of factors linked to obesity by combining demographic, behavioral, and health-related details. It captures key aspects such as age, gender, physical condition, and BMI classifications. It also tracks eating habits, including the consumption of high-calorie foods, vegetables, and alcohol, as well as meal frequency, snacking, water intake, and physical activity levels. This diverse range of attributes enables a detailed analysis of obesity-related factors.
 
+<details>
+  <summary>👉 Click here to read the description</summary> 
+
 **Dataset Feature Description**
 
 The dataset provides information on individuals' obesity levels based on a variety of lifestyle and health-related factors. Below is a list of the features included, along with brief descriptions:
@@ -170,6 +174,8 @@ The dataset provides information on individuals' obesity levels based on a varie
 - **CALC (Alcohol Consumption Frequency):** How often alcohol is consumed: no, sometimes, frequently, or always.<br>
 - **MTRANS (Mode of Transportation):** Main mode of transport: public transportation, walking, automobile, or motorbike.<br>
 - **NObeyesdad (Obesity Level Classification):** The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.<br>
+
+</details>
 
 ---
 
