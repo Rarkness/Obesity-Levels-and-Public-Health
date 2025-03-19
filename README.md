@@ -394,6 +394,7 @@ interpretion of cat bar plots vs Nobeysdad:
 
 ---
 ###Top 10 Important Features in Predicting Obesity Level
+![feature_importance](https://github.com/user-attachments/assets/6eb2467c-8561-4a8c-9ee7-9cbacb20f67f)
 
 
 This bar chart visualizes the top 10 most important features that influence obesity level prediction. The importance score represents the contribution of each feature to the model. Understanding these features helps in identifying key factors contributing to obesity and designing better intervention strategies!
