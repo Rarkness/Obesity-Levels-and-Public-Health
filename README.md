@@ -227,7 +227,7 @@ This packed circle chart, created using Altair, visualizes the most common obesi
 </p>
 </details>
 
-<img src="images/Obesity_by_Age_Gender_Altair_PackedCircle.png" alt="Bar Chart" width="600">
+<img src="images/Obesity_by_Age_Gender_Altair_PackedCircle.png" alt="Bar Chart" width="800">
 
 ---
 
