@@ -255,6 +255,21 @@ This packed circle chart, created using Altair, visualizes the most common obesi
 
 ---
 
+
+### Demographic Features vs Obesity
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+
+This bar chart shows obesity levels segmented by the frequency of food consumption between meals. The x-axis represents different categories of food consumption between meals, while the y-axis represents the percentage of individuals within each obesity level. The bars are stacked - which is indicating proportion of each obesity level for each category of food consumption.
+
+</p>
+</details>
+
+<img src="images/demographic_features_vs_obesity.png" alt="Bar Chart" height="400">
+
+
 ### Demographic Features vs. Obesity Level
 
 <details>
