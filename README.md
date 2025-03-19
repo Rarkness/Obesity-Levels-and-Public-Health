@@ -215,6 +215,21 @@ This grouped bar chart illustrates the distribution of obesity levels among male
 
 ---
 
+### Obesity Levels by Age Group and Gender
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+ 
+This packed circle chart, created using Altair, visualizes the most common obesity levels across different age groups and genders. Each circle represents a specific demographic segment, where the size of the circle indicates the number of individuals within that group. The x-axis displays the age groups (16-25, 26-35, etc.), while the y-axis shows the corresponding count of individuals in each category. The color of each circle differentiates between obesity levels for easy comparison. This visualization helps wellness providers quickly identify high-risk groups and demographic patterns. By understanding which age and gender groups are more affected by obesity, providers can design more targeted wellness initiatives and health interventions to promote healthier habits and reduce obesity rates.
+
+</p>
+</details>
+
+![Bar Chart](images/Obesity_by_Age_Gender_Altair_PackedCircle.png)
+
+---
+
 ### Height vs Weight Regression by Obesity Level
 
 <details>
