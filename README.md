@@ -86,7 +86,9 @@ It helps with the early detection of obesity risks, allowing for timely interven
 We are adopting a structured Data Science Approach (DSA) to explore key lifestyle and demographic factors associated with obesity. The following outlines our initial plan, which will evolve as we continue to refine our methods and results.
 
 <details>
-  ***<summary>🔘 ***Click here to read the description***</summary>
+  <summary><strong><em>🔘 Click here to read the description</em></strong></summary>
+
+<p>
  
 ### 🔎 Problem Understanding
 We are in the process of clearly defining the problem, which focuses on predicting and analyzing obesity levels based on lifestyle behaviors and demographic factors. As we progress, we will continue to refine our understanding and focus areas.
@@ -111,7 +113,7 @@ Our plan includes deploying the final solution as a static dashboard, where user
 
 ### 💡 Results and Conclusions
 Our conclusions and recommendations will be developed as we complete our analysis.
-
+</p>
 </details>
 
 ---
