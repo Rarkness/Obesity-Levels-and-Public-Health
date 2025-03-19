@@ -277,7 +277,7 @@ The higher the obesity level, the more spread-out the age distribution, suggesti
 </p>
 </details>
 
-<img src="https://github.com/user-attachments/assets/be4e03e3-97be-4d9b-81e8-9ff0e68d143c" alt="demographic_features_vs_obesity" height="400">
+<img src="https://github.com/user-attachments/assets/be4e03e3-97be-4d9b-81e8-9ff0e68d143c" alt="demographic_features_vs_obesity" width="400">
 
 
 
