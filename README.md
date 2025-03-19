@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/python-3.9-blue)
+<img width="787" alt="Physical_Activity_Frequency" src="https://github.com/user-attachments/assets/549d1b36-f662-4b09-adf7-7bf47b90effb" />![Python](https://img.shields.io/badge/python-3.9-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)<br>
 ## **Data Science Institute - Cohort 5 - Team 3 Project**
 
@@ -209,6 +209,14 @@ This regression plot illustrates the relationship between height and weight acro
 This grouped bar chart visualizes the relationship between transportation choices and obesity levels. It compares how frequently individuals in different obesity categories use various modes of transport, such as walking, public transportation, motorbike, and car. The chart reveals that individuals who walk or use public transportation tend to be in lower obesity categories, suggesting they may lead more active lifestyles. In contrast, those who primarily rely on cars or motorbikes are more frequently classified in higher obesity levels. This insight highlights the potential health benefits of promoting active commuting options to reduce obesity risks.
 
 ![Bar Plot](images/Mode_of_Transportation_Bar_Seaborn.png)
+
+---
+
+### Physical Activity Frequency Across Obesity Levels
+
+This radar plot displays the normalized average physical activity frequency per week across different obesity categories using a circular spider layout. The distance from the center represents activity levels, scaled as a percentage of the most active group (100%). Groups closer to the center indicate lower activity, often corresponding to higher obesity severity. This visualization highlights the inverse relationship between physical activity and obesity severity, showing that individuals in higher obesity categories typically engage in less physical activity. These insights emphasize the importance of promoting physical activity to reduce obesity risk and improve health outcomes. For insurance companies, understanding these patterns can inform risk assessments, guide premium calculations, and support the development of targeted wellness programs aimed at reducing long-term healthcare costs. The plot was created using a radar (spider) chart with Matplotlib’s polar plot functionality.
+
+![Bar Plot](images/Physical_Activity_Frequency.png)
 
 ---
 The following image presents a series of box plots illustrating various distributions by obesity level. Each plot compares different metrics across categories such as Normal Weight, Overweight Levels I and II, and Obesity Types I, II, and III.
