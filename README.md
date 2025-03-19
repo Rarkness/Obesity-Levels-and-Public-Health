@@ -1,4 +1,4 @@
-<img width="787" alt="Physical_Activity_Frequency" src="https://github.com/user-attachments/assets/549d1b36-f662-4b09-adf7-7bf47b90effb" />![Python](https://img.shields.io/badge/python-3.9-blue)
+![Python](https://img.shields.io/badge/python-3.9-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)<br>
 ## **Data Science Institute - Cohort 5 - Team 3 Project**
 
