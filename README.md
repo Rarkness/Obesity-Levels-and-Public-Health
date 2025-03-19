@@ -189,7 +189,12 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 ### Obesity levels by Gender
 
+<details>
+  <summary>Click to read the description</summary>
+
 This grouped bar chart illustrates the distribution of obesity levels among males and females, making it easy to compare how each gender is represented across different obesity categories. The visualization addresses whether there are significant differences in obesity prevalence between men and women. It reveals that males are more frequently represented in the more severe obesity categories, while females tend to appear more often in the normal weight and lower obesity levels. These insights can inform wellness programs and support the development of gender-specific health interventions.
+
+</details>
 
 ![Bar Chart](images/Obesity_Levels_by_Gender_Bar_Seaborn.png)
 
