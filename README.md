@@ -242,7 +242,7 @@ This regression plot illustrates the relationship between height and weight acro
 </p>
 </details>
 
-<img src="images/RegressionPlot_Height_vs_Weight_by_Obesity_Level.png" alt="Regression Plot" width="600">
+<img src="images/RegressionPlot_Height_vs_Weight_by_Obesity_Level.png" alt="Regression Plot" height="400">
 
 
 ---
@@ -258,7 +258,7 @@ This grouped bar chart visualizes the relationship between transportation choice
 </p>
 </details>
 
-<img src="images/Mode_of_Transportation_Bar_Seaborn.png" alt="Bar Plot" width="600">
+<img src="images/Mode_of_Transportation_Bar_Seaborn.png" alt="Bar Plot" height="400">
 
 ---
 
@@ -273,7 +273,7 @@ This radar plot displays the normalized average physical activity frequency per 
 </p>
 </details>
 
-<img src="images/Physical_Activity_Frequency.png" alt="Bar Plot" width="600">
+<img src="images/Physical_Activity_Frequency.png" alt="Bar Plot" height="400">
 
 ---
 
@@ -299,7 +299,7 @@ Overall, these plots provide insights into how various factors correlate with di
 </p>
 </details>
 
-<img src="images/Box_plot_for_numerical_Variables.png" alt="Box Plot" width="600">
+<img src="images/Box_plot_for_numerical_Variables.png" alt="Box Plot" height="400">
 
 ---
 
@@ -350,7 +350,7 @@ These charts collectively highlight the multifaceted nature of obesity, influenc
 </p>
 </details>
 
-<img src="images/Grouped_Barplot_for_Obesity_level.png" alt="Grouped Bar Plot" width="600">
+<img src="images/Grouped_Barplot_for_Obesity_level.png" alt="Grouped Bar Plot" height="400">
 
 ---
 
