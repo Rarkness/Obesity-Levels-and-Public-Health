@@ -1,6 +1,5 @@
 ![Python](https://img.shields.io/badge/python-3.9-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)<br>
-## **Data Science Institute - Cohort 5 - Team 3 Project**
 
 ---
 
@@ -34,11 +33,11 @@
 
 # **Team Members**
  
-🧮 **Bitewulign Mekonnen**<br>
-📈 **Gulrukh Aqeel**<br>
-📊 **Kate Antonova**<br>
-🗂️ **Richard Harkness**<br>
-📉 **Yalda Rahmati**<br>
+🧮 **Bitewulign Mekonnen** https://github.com/bitewulign/<br>
+📈 **Gulrukh Aqeel** http://linkedin.com/in/gulrukhaqeel/<br>
+📊 **Kate Antonova** https://www.linkedin.com/in/kate-antonova/<br>
+🗂️ **Richard Harkness** https://www.linkedin.com/in/rharkness/<br>
+📉 **Yalda Rahmati** https://www.linkedin.com/in/yalda-rahmati-/<br>
 
 ---
 
@@ -85,6 +84,10 @@ It helps with the early detection of obesity risks, allowing for timely interven
  
 We are adopting a structured Data Science Approach (DSA) to explore key lifestyle and demographic factors associated with obesity. The following outlines our initial plan, which will evolve as we continue to refine our methods and results.
 
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+ 
 ### 🔎 Problem Understanding
 We are in the process of clearly defining the problem, which focuses on predicting and analyzing obesity levels based on lifestyle behaviors and demographic factors. As we progress, we will continue to refine our understanding and focus areas.
 
@@ -109,6 +112,9 @@ Our plan includes deploying the final solution as a static dashboard, where user
 ### 💡 Results and Conclusions
 Our conclusions and recommendations will be developed as we complete our analysis.
 
+</p>
+</details>
+
 ---
 
 # 🧬**Model Objectives**
@@ -132,12 +138,13 @@ We preprocess the data by cleaning it, ensuring there are no missing values or d
 
 The following Python libraries are used in this project:
 
-- **NumPy:** Fast matrix operations.<br>
-- **Pandas:** Analyzing and extracting insights from datasets.<br>
-- **Matplotlib:** Creating graphs and plots.<br>
-- **Seaborn:** Enhancing the style of matplotlib plots.<br>
-- **Scikit-learn:** Linear regression analysis.<br>
-- **Plotly & Dash:** To create interactive visualization<br>
+- **NumPy:** Numerical computing and array operations.<br>
+- **Pandas:** Analyzing and extracting insights from data.<br>
+- **Matplotlib:** Creating static, animated, and interactive plots.<br>
+- **Seaborn:** Creating statistical data visualizations.<br>
+- **Scikit-learn:** Library for machine learning and data analysis.<br>
+- **Plotly & Dash:** Plotly for interactive visualizations; Dash builds interactive apps and dashboards.<br>
+- **Altair:** A declarative statistical visualization library for Python.<br>
 
 ---
 <a name="data-overview"></a>
@@ -145,6 +152,10 @@ The following Python libraries are used in this project:
 
 This dataset provides a comprehensive view of factors linked to obesity by combining demographic, behavioral, and health-related details. It captures key aspects such as age, gender, physical condition, and BMI classifications. It also tracks eating habits, including the consumption of high-calorie foods, vegetables, and alcohol, as well as meal frequency, snacking, water intake, and physical activity levels. This diverse range of attributes enables a detailed analysis of obesity-related factors.
 
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+ 
 **Dataset Feature Description**
 
 The dataset provides information on individuals' obesity levels based on a variety of lifestyle and health-related factors. Below is a list of the features included, along with brief descriptions:
@@ -167,6 +178,9 @@ The dataset provides information on individuals' obesity levels based on a varie
 - **MTRANS (Mode of Transportation):** Main mode of transport: public transportation, walking, automobile, or motorbike.<br>
 - **NObeyesdad (Obesity Level Classification):** The individual's obesity category: Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, or Obesity Type III.<br>
 
+</p>
+</details>
+
 ---
 
 # 🧼**Cleaning the Data**
@@ -187,31 +201,193 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 ---
 
-### Obesity levels by Gender
+### Top 10 Important Features in Predicting Obesity Level
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+
+This bar chart visualizes the top 10 most important features that influence obesity level prediction. The importance score represents the contribution of each feature to the model. Understanding these features helps in identifying key factors contributing to obesity and designing better intervention strategies!
+
+Key Observations:
+Weight is the most significant factor in determining obesity.
+Age, Food Consumption (FCVC), and Height also play notable roles.
+Gender is an important factor but not as influential as physical attributes like weight and height.
+Physical activity (FAF) and water intake (CH2O) have moderate influence.
+Visualization Details:
+The y-axis lists the feature names, and the x-axis represents their importance score.
+The chart is sorted in descending order, highlighting the most influential features at the top.
+
+</p>
+</details>
+
+<img src="images/feature_importance.png" alt="Bar Chart" height="400">
+
+---
+
+### Obesity Levels by Gender
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
 
 This grouped bar chart illustrates the distribution of obesity levels among males and females, making it easy to compare how each gender is represented across different obesity categories. The visualization addresses whether there are significant differences in obesity prevalence between men and women. It reveals that males are more frequently represented in the more severe obesity categories, while females tend to appear more often in the normal weight and lower obesity levels. These insights can inform wellness programs and support the development of gender-specific health interventions.
 
+</p>
+</details>
 
-![Bar Chart](images/Obesity_Levels_by_Gender_Bar_Seaborn.png)
+<img src="images/Obesity_Levels_by_Gender_Bar_Seaborn.png" alt="Bar Chart" height="400">
+
+---
+
+### Obesity Levels by Age Group and Gender
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+ 
+This packed circle chart, created using Altair, visualizes the most common obesity levels across different age groups and genders. Each circle represents a specific demographic segment, where the size of the circle indicates the number of individuals within that group. The x-axis displays the age groups (16-25, 26-35, etc.), while the y-axis shows the corresponding count of individuals in each category. The color of each circle differentiates between obesity levels for easy comparison. This visualization helps wellness providers quickly identify high-risk groups and demographic patterns. By understanding which age and gender groups are more affected by obesity, providers can design more targeted wellness initiatives and health interventions to promote healthier habits and reduce obesity rates.
+
+</p>
+</details>
+
+<img src="images/Obesity_by_Age_Gender_Altair_PackedCircle.png" alt="Bar Chart" height="400">
+
+---
+
+
+### Demographic Features vs. Obesity Level
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+ 
+This visualization explores the relationship between demographic features (age and gender) and obesity levels. It consists of two plots:
+- **Age** Distribution Across Obesity Levels (Boxplot)
+- **Gender** Distribution Across Obesity Levels (Stacked Bar Chart)
+
+## Age Distribution Across Obesity Levels
+- The top plot is a **boxplot** showing the age distribution across different obesity levels.
+- Each box represents the interquartile range (IQR), with whiskers extending to show variability outside the upper and lower quartiles.
+- Outliers are marked as individual points.
+
+### Key Observations:
+The median age varies across different obesity levels, indicating how different weight categories are distributed across age groups.
+- **Insufficient_Weight** : Individuals in this category tend to be younger, with the median age around 20 years. There are some outliers who are older, but the majority fall between 18-25 years old.
+- **Normal_Weight**: Slightly broader distribution than the underweight group, but still concentrated in younger ages.
+- **Overweight (Level I & II)**: A wider age range is observed, with more individuals in their mid-20s to early 30s.Overweight Level II shows a more spread-out age range, indicating that weight gain happens at different ages.
+- **Obesity (Type I, II, III)**: The median age for Obesity Type I and II is around 30 years, with some individuals reaching their late 30s and early 40s.Obesity Type III (Severe Obesity) has the widest age range, spanning from early 20s to over 50 years old.This suggests that severe obesity is seen across different age groups, but younger individuals are also at risk.The presence of outliers at older ages indicates that obesity persists into later life stages for some individuals.
+
+#### Implication: 
+Obesity is more prevalent in older age groups, but younger individuals are also affected.
+The higher the obesity level, the more spread-out the age distribution, suggesting different risk factors at different ages.
+
+## Gender Distribution Across Obesity Levels
+- The bottom plot is a **stacked bar chart** that visualizes gender distribution for each obesity category.
+- It allows comparison of obesity levels between **male** and **female** participants.
+### Key Observations:
+- **Males** tend to be more prevalent in severe obesity levels, while **females** are more evenly distributed.
+- **Insufficient_Weight & Normal_Weigh**: These categories have a relatively balanced gender distribution, though females slightly outnumber males.
+- **Overweight (Level I & II)**: More males than females appear in these categories, suggesting that men are more likely to be overweight.
+- **Obesity (Type I, II, III)**: The proportion of males increases significantly in severe obesity levels.Obesity Type III (Most Severe) has the highest number of males, indicating a potential gender-related difference in obesity trends.
+ ### Implication: 
+- Men tend to have a higher prevalence of obesity than women, especially in severe obesity categories.
+ - Women are more evenly distributed across weight categories, while men are more concentrated in overweight and obesity levels.
+- Gender differences in obesity may be linked to lifestyle, metabolism, or other health factors.
+#### Overall Summary
+- Younger individuals are more likely to be underweight or normal weight.
+- Middle-aged individuals show the highest prevalence of obesity, with a broad range of ages affected.
+- Males are more affected by severe obesity, while females have a more balanced distribution.
+
+</p>
+</details>
+
+<img src="images/demographic_features_vs_obesity.png" alt="Bar Chart" height="400">
+
+---
+
+### Age vs Weight by Obesity Level
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+ 
+This scatter plot, created using Plotly Express, visualizes the relationship between age and weight, with points color-coded by obesity levels and sized by height. The X-axis represents age, and the Y-axis shows weight, making it easy to interpret patterns at a glance. This visualization helps stakeholders identify high-risk groups, such as individuals over 40 with weights exceeding 80kg, who are more likely to fall into higher obesity categories. The insights can guide wellness providers and healthcare professionals in developing targeted, age-specific interventions to address obesity risks effectively.
+
+</p>
+</details>
+
+<img src="images/Age_vs_Weight_by_Obesity_Level.png" alt="Bar Chart" height="400">
 
 ---
 
 ### Height vs Weight Regression by Obesity Level
 
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+ <p>
+ 
 This regression plot illustrates the relationship between height and weight across different obesity categories. Each obesity level is represented with a separate trend line, making it easy to compare how weight typically changes with height depending on the obesity classification. The plot reveals that individuals in higher obesity categories generally have higher weights for a given height compared to those in lower categories. This highlights weight as a key factor in distinguishing between obesity levels. The visualization, styled with an accessible color palette, helps to clearly demonstrate how physical measurements like height and weight interact in relation to obesity severity, providing valuable insights for health assessments and targeted interventions.
 
-![Regression Plot](images/RegressionPlot_Height_vs_Weight_by_Obesity_Level.png)
+</p>
+</details>
+
+<img src="images/RegressionPlot_Height_vs_Weight_by_Obesity_Level.png" alt="Regression Plot" height="400">
 
 ---
 
 ### Mode of Transportation Across Obesity Levels
 
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+ 
 This grouped bar chart visualizes the relationship between transportation choices and obesity levels. It compares how frequently individuals in different obesity categories use various modes of transport, such as walking, public transportation, motorbike, and car. The chart reveals that individuals who walk or use public transportation tend to be in lower obesity categories, suggesting they may lead more active lifestyles. In contrast, those who primarily rely on cars or motorbikes are more frequently classified in higher obesity levels. This insight highlights the potential health benefits of promoting active commuting options to reduce obesity risks.
 
-![Bar Plot](images/Mode_of_Transportation_Bar_Seaborn.png)
+</p>
+</details>
+
+<img src="images/Mode_of_Transportation_Bar_Seaborn.png" alt="Bar Plot" height="400">
 
 ---
+
+### Obesity by Food Between Meals
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+
+This bar chart shows obesity levels segmented by the frequency of food consumption between meals. The x-axis represents different categories of food consumption between meals, while the y-axis represents the percentage of individuals within each obesity level. The bars are stacked - which is indicating proportion of each obesity level for each category of food consumption.
+
+</p>
+</details>
+
+<img src="images/obesity_by_food_between_meals.png" alt="Bar Plot" height="400">
+
+---
+
+### Physical Activity Frequency Across Obesity Levels
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+ <p>
+  
+This radar plot displays the normalized average physical activity frequency per week across different obesity categories using a circular spider layout. The distance from the center represents activity levels, scaled as a percentage of the most active group (100%). Groups closer to the center indicate lower activity, often corresponding to higher obesity severity. This visualization highlights the inverse relationship between physical activity and obesity severity, showing that individuals in higher obesity categories typically engage in less physical activity. These insights emphasize the importance of promoting physical activity to reduce obesity risk and improve health outcomes. For insurance companies, understanding these patterns can inform risk assessments, guide premium calculations, and support the development of targeted wellness programs aimed at reducing long-term healthcare costs. The plot was created using a radar (spider) chart with Matplotlib’s polar plot functionality.
+
+</p>
+</details>
+
+<img src="images/Physical_Activity_Frequency.png" alt="Bar Plot" height="400">
+
+---
+
+### Distributions by Obesity Level
+
 The following image presents a series of box plots illustrating various distributions by obesity level. Each plot compares different metrics across categories such as Normal Weight, Overweight Levels I and II, and Obesity Types I, II, and III.
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+ <p>
 
 - **Age Distribution:** Shows how age varies across obesity levels, with a wider range in higher obesity categories.
 - **Height Distribution:** Displays height differences, with slight variations across categories.
@@ -224,10 +400,20 @@ The following image presents a series of box plots illustrating various distribu
 
 Overall, these plots provide insights into how various factors correlate with different obesity levels.
 
-![Box Plot](images/Box_plot_for_numerical_Variables.png)
+</p>
+</details>
+
+<img src="images/Box_plot_for_numerical_Variables.png" alt="Box Plot">
 
 ---
+
+### Various Factors by Obesity Level
+
 The next image presents a series of bar charts analyzing various factors by obesity level. Each chart provides insights into how different variables correlate with obesity.
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+ <p>
 
 **Gender Distribution**
 
@@ -265,14 +451,36 @@ Overall Analysis
 
 These charts collectively highlight the multifaceted nature of obesity, influenced by dietary habits, family history, and lifestyle choices. Addressing these factors holistically could be key in managing and preventing obesity.
 
-![grouped Bar Plot](images/Grouped_Barplot_for_Obesity_level.png)
+</p>
+</details>
+
+<img src="images/Grouped_Barplot_for_Obesity_level.png" alt="Grouped Bar Plot">
+
 ---
 
-[Click here for obesity Dataset Interactive Pie Chart visualization](https://obesity-dashboard-live-2.onrender.com/)
+### Interactive Pie Charts Showing Obesity Distribution by Feature and Category
+
+[Click Here for Interactive Pie Chart](https://obesity-dashboard-live-2.onrender.com/)
 This interactive Pie Chart visually represents obesity distribution across different features for every feature and category. Using Plotly, the visualization allows users to explore proportions dynamically, with hover effects displaying detailed information for each segment.
 
----
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+ <p>
 
+interpretion of cat bar plots vs Nobeysdad: 
+- Gender does not seem to have a drastic impact, but males may be slightly more prone to higher obesity levels.
+- There is a strong correlation between family history and obesity, indicating genetic or lifestyle factors play a role.
+- Frequent consumption of high-caloric food strongly contributes to obesity.
+- Frequent snacking (Always) does not necessarily increase the proportion of Obesity Type III.However, snacking "Sometimes" has a high proportion of severe obesity. So it seems occasional snacking might be riskier than always snacking, possibly due to uncontrolled eating patterns.
+- Smokers and non-smokers have a similar distribution of obesity levels. So smoking habits in this dataset do not significantly impact obesity.
+- Monitoring calorie intake may contribute to maintaining a healthier weight and reducing extreme obesity cases.However, some individuals who track calories still experience obesity, suggesting that monitoring alone is not always sufficient. Other factors (like physical activity, metabolism, and food quality) also play a role.
+-  Alcohol consumption may influence obesity but is not the sole factor.
+- Walking is associated with lower extreme obesity (Type III), but Public Transportation users still have significant obesity cases. People using public transport may still have a sedentary lifestyle, contributing to obesity. Automobile users might be at risk due to a more sedentary routine, but they are not the only ones with high obesity levels. So Transportation mode alone may not determine obesity—other lifestyle factors (e.g., diet, physical activity) are crucial.
+
+</p>
+</details>
+
+---
 <a name="implementation"></a>
 # ⚙️**Implementation**
 
