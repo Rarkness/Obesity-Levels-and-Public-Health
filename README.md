@@ -526,6 +526,7 @@ In this project, alongside data visualization and exploratory analysis, machine 
 | Support Vector  | 0.914    |    0.916  |  0.914   |  0.914   |
 
 </div>
+
 - **Insights:**
    - Both models demonstrate strong performance across all metrics, with the Random Forest model slightly outperforming the SVM model in each category.
    - While both models perform well, further tuning and feature engineering could potentially enhance both models especially the SVM model's performance to match or exceed that of the Random Forest model.
