@@ -222,7 +222,7 @@ The chart is sorted in descending order, highlighting the most influential featu
 </p>
 </details>
 
-<img src="images/feature_importance.png" alt="Bar Chart" height="400">
+<img src="images/interactive_feature_importance_by_category.png" alt="Bar Chart" height="400">
 
 ---
 
