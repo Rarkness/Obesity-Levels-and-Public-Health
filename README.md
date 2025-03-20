@@ -506,8 +506,54 @@ The model aims to create a positive impact and raise awareness across several ke
 
 ---
 
+# Machine learning results
+
+-  #### Title: Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
+
+In this project, alongside data visualization and exploratory analysis, machine learning models are employed to predict obesity levels using data related to physical activity and dietary habits. The process involves several key steps: data preprocessing, model training, evaluation, and visualization of results through confusion matrix plots and ROC curves.
+
+**Data Preprocessing:** As previously discussed, the dataset, containing features related to physical activity and dietary habits, is  cleaned and prepared. Features are categorized into numeric and categorical types. Numeric features are standardized using StandardScaler, while categorical features are encoded using OneHotEncoder. This preprocessing ensures that the data is in a suitable format for model training.
+
+**Model Training:** Two machine learning models, **Random Forest and Support Vector Machine (SVM)**, are trained using the preprocessed data. The dataset is split into training (80%) and testing (20%) sets. Each model is trained on the training set, and predictions are made on the test set.
+
+**Evaluation:** The models are evaluated using various metrics, including accuracy, precision, recall, and F1 score. These metrics provide a quantitative measure of the models' performance in predicting obesity levels. The results are as follows:
+ 
+<div align="center">
+
+**Table 1:** model's performance metrics results
+|                 | Accuracy | precision | recall   | f1_score |
+|-----------------|----------|-----------|----------|----------|
+| Random Forest   | 0.945    |  0.948    |  0.945   |  0.946   |
+| Support Vector  | 0.914    |    0.916  |  0.914   |  0.914   |
+
+</div>
+
+- **Insights:**
+   - Both models demonstrate strong performance across all metrics, with the Random Forest model slightly outperforming the SVM model in each category.
+   - While both models perform well, further tuning and feature engineering could potentially enhance both models especially the SVM model's performance to match or exceed that of the Random Forest model.
+
+**Confusion Matrix Plots:** Confusion matrices are plotted for both models to visualize the distribution of true positives, false positives, true negatives, and false negatives. These plots help identify specific areas where the models perform well or struggle, such as misclassifying certain obesity levels.
+
+![confusion matrix](images/Obesity_estimation_confusion_matrix_results.png)
+
+**Overall Analysis of the confusion matrix plots:**
+- Both models show strong performance in correctly classifying most instances, particularly for Classes.
+- The Random Forest model generally has fewer misclassifications compared to the SVM model, indicating slightly better performance.
+
+**ROC Curve Analysis:** The Receiver Operating Characteristic (ROC) curves are generated for each class in a multi-class setting. By binarizing the labels, the ROC curves and Area Under the Curve (AUC) scores are computed for each class and a macro-average. These curves provide a visual representation of the models' ability to distinguish between different obesity levels, highlighting their discriminative power. 
+
+![ROC curve](images/Obesity_estimation_ROC_curves_results.png)
+
+**Overall Analysis of the ROC curve plot:**
+- Both models exhibit strong performance, with Random Forest slightly outperforming SVM in terms of macro-average AUC.
+- The models perform exceptionally well in distinguishing certain classes, such as Obesity_Type_I and Insufficient_Weight, but face challenges with others like Overweight_Level_I and Obesity_Type_II.
+
+---
+
 # 💡**Conclusion**
 
 By using this dataset to estimate obesity levels, we can support smarter, data-driven decisions in healthcare, wellness, insurance, and public policy. The insights gained from the analysis not only have the potential to lower obesity rates but also to reduce long-term healthcare costs and improve overall productivity. Clear visualizations and accessible information empower stakeholders, from healthcare providers and insurance professionals to policymakers and individuals, to take proactive steps toward prevention and intervention. Ultimately, this approach promotes healthier lifestyles, supports early risk detection, and contributes to better public health outcomes on a larger scale.
+
+In addition, this project demonstrates the application of machine learning models to predict obesity levels based on physical  activity and dietary habits data. The use of confusion matrices and ROC curves offers valuable insights into model performance, guiding further improvements and decision-making in health-related predictive analytics.
 
 ---
