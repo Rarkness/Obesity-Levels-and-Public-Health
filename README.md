@@ -505,7 +505,9 @@ There are a few risks to consider, but each has a clear plan to address them. Fi
 The model aims to create a positive impact and raise awareness across several key sectors. In healthcare, it supports preventive measures and enables more targeted interventions. For governments and policymakers, it offers evidence-based insights to guide public health initiatives and inform policy decisions. Individuals also benefit by gaining valuable knowledge that empowers them to make informed lifestyle choices and take control of their health.
 
 ---
-# Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
+# Machine learning results
+
+-  #### Title: Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
 
 In this project, alongside data visualization and exploratory analysis, machine learning models are employed to predict obesity levels using data related to physical activity and dietary habits. The process involves several key steps: data preprocessing, model training, evaluation, and visualization of results through confusion matrix plots and ROC curves.
 
@@ -529,8 +531,8 @@ In this project, alongside data visualization and exploratory analysis, machine 
 
 ![confusion matrix](images/Obesity_estimation_confusion_matrix_results.png)
 
-**Overall Analysis of these plots:**
-- Both models show strong performance in correctly classifying most instances, particularly for Classes 2, 3, and 4.
+**Overall Analysis of the confusion matrix plots:**
+- Both models show strong performance in correctly classifying most instances, particularly for Classes.
 - The Random Forest model generally has fewer misclassifications compared to the SVM model, indicating slightly better performance.
 
 **ROC Curve Analysis:** The Receiver Operating Characteristic (ROC) curves are generated for each class in a multi-class setting. By binarizing the labels, the ROC curves and Area Under the Curve (AUC) scores are computed for each class and a macro-average. These curves provide a visual representation of the models' ability to distinguish between different obesity levels, highlighting their discriminative power. 
@@ -547,4 +549,5 @@ In this project, alongside data visualization and exploratory analysis, machine 
 By using this dataset to estimate obesity levels, we can support smarter, data-driven decisions in healthcare, wellness, insurance, and public policy. The insights gained from the analysis not only have the potential to lower obesity rates but also to reduce long-term healthcare costs and improve overall productivity. Clear visualizations and accessible information empower stakeholders, from healthcare providers and insurance professionals to policymakers and individuals, to take proactive steps toward prevention and intervention. Ultimately, this approach promotes healthier lifestyles, supports early risk detection, and contributes to better public health outcomes on a larger scale.
 
 In addition, this project demonstrates the application of machine learning models to predict obesity levels based on physical  activity and dietary habits data. The use of confusion matrices and ROC curves offers valuable insights into model performance, guiding further improvements and decision-making in health-related predictive analytics.
+
 ---
