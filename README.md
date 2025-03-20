@@ -509,7 +509,7 @@ The model aims to create a positive impact and raise awareness across several ke
 
 # Machine Learning Results
 
--  #### Title: Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
+#### Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
 
 In this project, alongside data visualization and exploratory analysis, machine learning models are employed to predict obesity levels using data related to physical activity and dietary habits. The process involves several key steps: data preprocessing, model training, evaluation, and visualization of results through confusion matrix plots and ROC curves.
 
