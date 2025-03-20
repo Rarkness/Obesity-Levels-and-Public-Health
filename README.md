@@ -202,22 +202,26 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 ---
 
-### Top 10 Important Features in Predicting Obesity Level
+### Interactive Feature Importance by Category
 
 <details>
   <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
 <p>
 
-This bar chart visualizes the top 10 most important features that influence obesity level prediction. The importance score represents the contribution of each feature to the model. Understanding these features helps in identifying key factors contributing to obesity and designing better intervention strategies!
+# Interactive Feature Importance by Category
 
-Key Observations:
-Weight is the most significant factor in determining obesity.
-Age, Food Consumption (FCVC), and Height also play notable roles.
-Gender is an important factor but not as influential as physical attributes like weight and height.
-Physical activity (FAF) and water intake (CH2O) have moderate influence.
-Visualization Details:
-The y-axis lists the feature names, and the x-axis represents their importance score.
-The chart is sorted in descending order, highlighting the most influential features at the top.
+This visualization represents the feature importance scores for different variables in our dataset, categorized into **Demographics, Body Measurements** (e.g., Weight, Height) ,** and **Lifestyle Factors** (e.g., Eating habits, Physical Activity, Technology Usage) . The interactive nature of the chart allows users to explore the relative impact of each feature on the model’s predictions.
+## Key Insights
+- **Weight** is the most influential feature with a score of **0.25**, followed by **Age (0.15)** and **Height (0.10)**.
+- **Eating habits**, such as **FCVC (Frequency of Vegetable Consumption) and NCP (Number of Main Meals per Day)**, also play a crucial role.
+- **other Lifestyle factors**, such as **CH2O (Daily Water Intake) and CALC_sometimes (Occasional Alcohol Consumption)**, contribute to the model but have lower importance scores.
+- **Physical Activity (FAF - Physical Activity Frequency)** has a minor influence compared to other factors.
+## Features and Categories
+- **Demographics (Blue):** Age, Gender
+- **Body measurement (Red):** Weight,Height
+- **Lifestyle (green):** CH2O, TUE (Technology Use), CALC_sometimes,FAF,FCVC,NCP
+## Interpretation
+Understanding the importance of these features helps in identifying key factors influencing the outcome and allows for targeted interventions or recommendations. The interactive elements enable further exploration by hovering over bars for exact values.
 
 </p>
 </details>
