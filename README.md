@@ -513,6 +513,11 @@ The model aims to create a positive impact and raise awareness across several ke
 
 In this project, alongside data visualization and exploratory analysis, machine learning models are employed to predict obesity levels using data related to physical activity and dietary habits. The process involves several key steps: data preprocessing, model training, evaluation, and visualization of results through confusion matrix plots and ROC curves.
 
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+ <p>
+  
 **Data Preprocessing:** As previously discussed, the dataset, containing features related to physical activity and dietary habits, is  cleaned and prepared. Features are categorized into numeric and categorical types. Numeric features are standardized using StandardScaler, while categorical features are encoded using OneHotEncoder. This preprocessing ensures that the data is in a suitable format for model training.
 
 **Model Training:** Two machine learning models, **Random Forest and Support Vector Machine (SVM)**, are trained using the preprocessed data. The dataset is split into training (80%) and testing (20%) sets. Each model is trained on the training set, and predictions are made on the test set.
@@ -548,6 +553,9 @@ In this project, alongside data visualization and exploratory analysis, machine 
 **Overall Analysis of the ROC curve plot:**
 - Both models exhibit strong performance, with Random Forest slightly outperforming SVM in terms of macro-average AUC.
 - The models perform exceptionally well in distinguishing certain classes, such as Obesity_Type_I and Insufficient_Weight, but face challenges with others like Overweight_Level_I and Obesity_Type_II.
+
+</p>
+</details>
 
 ---
 
