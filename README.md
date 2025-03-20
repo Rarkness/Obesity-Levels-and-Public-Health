@@ -506,7 +506,7 @@ The model aims to create a positive impact and raise awareness across several ke
 
 ---
 
-# Machine learning results
+# Machine Learning Results
 
 -  #### Title: Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
 
