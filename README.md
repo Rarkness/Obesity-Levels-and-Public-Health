@@ -517,12 +517,15 @@ In this project, alongside data visualization and exploratory analysis, machine 
 
 **Evaluation:** The models are evaluated using various metrics, including accuracy, precision, recall, and F1 score. These metrics provide a quantitative measure of the models' performance in predicting obesity levels. The results are as follows:
  
+<div align="center">
+
 **Table 1:** model's performance metrics results
 |                 | Accuracy | precision | recall   | f1_score |
 |-----------------|----------|-----------|----------|----------|
 | Random Forest   | 0.945    |  0.948    |  0.945   |  0.946   |
 | Support Vector  | 0.914    |    0.916  |  0.914   |  0.914   |
 
+</div>
 - **Insights:**
    - Both models demonstrate strong performance across all metrics, with the Random Forest model slightly outperforming the SVM model in each category.
    - While both models perform well, further tuning and feature engineering could potentially enhance both models especially the SVM model's performance to match or exceed that of the Random Forest model.
