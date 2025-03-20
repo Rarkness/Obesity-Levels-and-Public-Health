@@ -208,8 +208,6 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
   <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
 <p>
 
-# Interactive Feature Importance by Category
-
 This visualization represents the feature importance scores for different variables in our dataset, categorized into **Demographics, Body Measurements** (e.g., Weight, Height) ,** and **Lifestyle Factors** (e.g., Eating habits, Physical Activity, Technology Usage) . The interactive nature of the chart allows users to explore the relative impact of each feature on the model’s predictions.
 ## Key Insights
 - **Weight** is the most influential feature with a score of **0.25**, followed by **Age (0.15)** and **Height (0.10)**.
