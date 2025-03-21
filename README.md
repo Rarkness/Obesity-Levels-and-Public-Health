@@ -262,15 +262,18 @@ The higher the obesity level, the more spread-out the age distribution, suggesti
 ## Gender Distribution Across Obesity Levels
 - The bottom plot is a **stacked bar chart** that visualizes gender distribution for each obesity category.
 - It allows comparison of obesity levels between **male** and **female** participants.
-### Key Observations:
+
+## Key Observations:
 - **Males** tend to be more prevalent in severe obesity levels, while **females** are more evenly distributed.
 - **Insufficient_Weight & Normal_Weigh**: These categories have a relatively balanced gender distribution, though females slightly outnumber males.
 - **Overweight (Level I & II)**: More males than females appear in these categories, suggesting that men are more likely to be overweight.
 - **Obesity (Type I, II, III)**: The proportion of males increases significantly in severe obesity levels.Obesity Type III (Most Severe) has the highest number of males, indicating a potential gender-related difference in obesity trends.
- ### Implication: 
+
+## Implication: 
 - Men tend to have a higher prevalence of obesity than women, especially in severe obesity categories.
  - Women are more evenly distributed across weight categories, while men are more concentrated in overweight and obesity levels.
 - Gender differences in obesity may be linked to lifestyle, metabolism, or other health factors.
+
 #### Overall Summary
 - Younger individuals are more likely to be underweight or normal weight.
 - Middle-aged individuals show the highest prevalence of obesity, with a broad range of ages affected.
