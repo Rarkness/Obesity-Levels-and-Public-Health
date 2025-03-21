@@ -509,7 +509,7 @@ This visualization represents the feature importance scores for different variab
 ### Interpretation
 Understanding the importance of these features helps in identifying key factors influencing the outcome and allows for targeted interventions or recommendations. The interactive elements enable further exploration by hovering over bars for exact values.
 
-<img src="images/interactive_feature_importance_by_category.png" alt="Bar Chart" height="400">
+<img src="images/Feature_Importance_by_Category.png" alt="Bar Chart" height="400">
 
 ## Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
 
