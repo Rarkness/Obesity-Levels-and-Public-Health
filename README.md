@@ -511,7 +511,6 @@ Understanding the importance of these features helps in identifying key factors 
 
 <img src="images/interactive_feature_importance_by_category.png" alt="Bar Chart" height="400">
 
-
 ## Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
 
 **Data Preprocessing:** As previously discussed, the dataset, containing features related to physical activity and dietary habits, is  cleaned and prepared. Features are categorized into numeric and categorical types. Numeric features are standardized using StandardScaler, while categorical features are encoded using OneHotEncoder. This preprocessing ensures that the data is in a suitable format for model training.
