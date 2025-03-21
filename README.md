@@ -537,6 +537,7 @@ Understanding the importance of these features helps in identifying key factors 
 
 **Confusion Matrix Plots:** Confusion matrices are plotted for both models to visualize the distribution of true positives, false positives, true negatives, and false negatives. These plots help identify specific areas where the models perform well or struggle, such as misclassifying certain obesity levels.
 
+
 ![confusion matrix](images/Obesity_estimation_confusion_matrix_results.png)
 
 **Overall Analysis of the confusion matrix plots:**
@@ -544,6 +545,7 @@ Understanding the importance of these features helps in identifying key factors 
 - The Random Forest model generally has fewer misclassifications compared to the SVM model, indicating slightly better performance.
 
 **ROC Curve Analysis:** The Receiver Operating Characteristic (ROC) curves are generated for each class in a multi-class setting. By binarizing the labels, the ROC curves and Area Under the Curve (AUC) scores are computed for each class and a macro-average. These curves provide a visual representation of the models' ability to distinguish between different obesity levels, highlighting their discriminative power. 
+
 
 ![ROC curve](images/Obesity_estimation_ROC_curves_results.png)
 
