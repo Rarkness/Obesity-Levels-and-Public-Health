@@ -202,32 +202,6 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 ---
 
-### Interactive Feature Importance by Category
-
-<details>
-  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
-<p>
-
-This visualization represents the feature importance scores for different variables in our dataset, categorized into **Demographics, Body Measurements** (e.g., Weight, Height) ,** and **Lifestyle Factors** (e.g., Eating habits, Physical Activity, Technology Usage) . The interactive nature of the chart allows users to explore the relative impact of each feature on the model’s predictions.
-## Key Insights
-- **Weight** is the most influential feature with a score of **0.25**, followed by **Age (0.15)** and **Height (0.10)**.
-- **Eating habits**, such as **FCVC (Frequency of Vegetable Consumption) and NCP (Number of Main Meals per Day)**, also play a crucial role.
-- **other Lifestyle factors**, such as **CH2O (Daily Water Intake) and CALC_sometimes (Occasional Alcohol Consumption)**, contribute to the model but have lower importance scores.
-- **Physical Activity (FAF - Physical Activity Frequency)** has a minor influence compared to other factors.
-## Features and Categories
-- **Demographics (Blue):** Age, Gender
-- **Body measurement (Red):** Weight,Height
-- **Lifestyle (green):** CH2O, TUE (Technology Use), CALC_sometimes,FAF,FCVC,NCP
-## Interpretation
-Understanding the importance of these features helps in identifying key factors influencing the outcome and allows for targeted interventions or recommendations. The interactive elements enable further exploration by hovering over bars for exact values.
-
-</p>
-</details>
-
-<img src="images/interactive_feature_importance_by_category.png" alt="Bar Chart" height="400">
-
----
-
 ### Obesity Levels by Gender
 
 <details>
@@ -523,6 +497,23 @@ In this project, alongside data visualization and exploratory analysis, machine 
 **Data Preprocessing:** As previously discussed, the dataset, containing features related to physical activity and dietary habits, is  cleaned and prepared. Features are categorized into numeric and categorical types. Numeric features are standardized using StandardScaler, while categorical features are encoded using OneHotEncoder. This preprocessing ensures that the data is in a suitable format for model training.
 
 **Model Training:** Two machine learning models, **Random Forest and Support Vector Machine (SVM)**, are trained using the preprocessed data. The dataset is split into training (80%) and testing (20%) sets. Each model is trained on the training set, and predictions are made on the test set.
+
+### Top 10 Important Features Random Forrest
+
+This visualization represents the feature importance scores for different variables in our dataset, categorized into **Demographics, Body Measurements** (e.g., Weight, Height) ,** and **Lifestyle Factors** (e.g., Eating habits, Physical Activity, Technology Usage) . The interactive nature of the chart allows users to explore the relative impact of each feature on the model’s predictions.
+## Key Insights
+- **Weight** is the most influential feature with a score of **0.25**, followed by **Age (0.15)** and **Height (0.10)**.
+- **Eating habits**, such as **FCVC (Frequency of Vegetable Consumption) and NCP (Number of Main Meals per Day)**, also play a crucial role.
+- **other Lifestyle factors**, such as **CH2O (Daily Water Intake) and CALC_sometimes (Occasional Alcohol Consumption)**, contribute to the model but have lower importance scores.
+- **Physical Activity (FAF - Physical Activity Frequency)** has a minor influence compared to other factors.
+## Features and Categories
+- **Demographics (Blue):** Age, Gender
+- **Body measurement (Red):** Weight,Height
+- **Lifestyle (green):** CH2O, TUE (Technology Use), CALC_sometimes,FAF,FCVC,NCP
+## Interpretation
+Understanding the importance of these features helps in identifying key factors influencing the outcome and allows for targeted interventions or recommendations. The interactive elements enable further exploration by hovering over bars for exact values.
+
+<img src="images/interactive_feature_importance_by_category.png" alt="Bar Chart" height="400">
 
 **Evaluation:** The models are evaluated using various metrics, including accuracy, precision, recall, and F1 score. These metrics provide a quantitative measure of the models' performance in predicting obesity levels. The results are as follows:
  
