@@ -502,22 +502,11 @@ In this project, alongside data visualization and exploratory analysis, machine 
 
 This visualization represents the feature importance scores for different variables in our dataset, categorized into **Demographics, Body Measurements** (e.g., Weight, Height) ,** and **Lifestyle Factors** (e.g., Eating habits, Physical Activity, Technology Usage) . The interactive nature of the chart allows users to explore the relative impact of each feature on the model’s predictions.
 
-<details>
-  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
-<p>
- 
 ## Key Insights
 - **Weight** is the most influential feature with a score of **0.25**, followed by **Age (0.15)** and **Height (0.10)**.
 - **Eating habits**, such as **FCVC (Frequency of Vegetable Consumption) and NCP (Number of Main Meals per Day)**, also play a crucial role.
 - **other Lifestyle factors**, such as **CH2O (Daily Water Intake) and CALC_sometimes (Occasional Alcohol Consumption)**, contribute to the model but have lower importance scores.
 - **Physical Activity (FAF - Physical Activity Frequency)** has a minor influence compared to other factors.
-## Features and Categories
-- **Demographics (Blue):** Age, Gender
-- **Body measurement (Red):** Weight,Height
-- **Lifestyle (green):** CH2O, TUE (Technology Use), CALC_sometimes,FAF,FCVC,NCP
-
-</p>
-</details>
 
 ## Interpretation
 Understanding the importance of these features helps in identifying key factors influencing the outcome and allows for targeted interventions or recommendations. The interactive elements enable further exploration by hovering over bars for exact values.
