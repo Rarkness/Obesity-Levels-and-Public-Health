@@ -27,7 +27,6 @@
 - [Next Steps](#next-steps)
 - [Risks and Mitigations](#risks-and-mitigations)
 - [Results](#results)
-- [Machine Learning Results](#Machine-Learning-Results)
 - [Conclusion](#conclusion)
 
 ---
@@ -202,6 +201,30 @@ The proposed solution uses the “Dataset for estimation of obesity levels based
 
 ---
 
+### Top 10 Important Features in Predicting Obesity Level
+
+<details>
+  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
+<p>
+
+This bar chart visualizes the top 10 most important features that influence obesity level prediction. The importance score represents the contribution of each feature to the model. Understanding these features helps in identifying key factors contributing to obesity and designing better intervention strategies!
+
+Key Observations:
+Weight is the most significant factor in determining obesity.
+Age, Food Consumption (FCVC), and Height also play notable roles.
+Gender is an important factor but not as influential as physical attributes like weight and height.
+Physical activity (FAF) and water intake (CH2O) have moderate influence.
+Visualization Details:
+The y-axis lists the feature names, and the x-axis represents their importance score.
+The chart is sorted in descending order, highlighting the most influential features at the top.
+
+</p>
+</details>
+
+<img src="images/feature_importance.png" alt="Bar Chart" height="400">
+
+---
+
 ### Obesity Levels by Gender
 
 <details>
@@ -262,18 +285,15 @@ The higher the obesity level, the more spread-out the age distribution, suggesti
 ## Gender Distribution Across Obesity Levels
 - The bottom plot is a **stacked bar chart** that visualizes gender distribution for each obesity category.
 - It allows comparison of obesity levels between **male** and **female** participants.
-
-## Key Observations:
+### Key Observations:
 - **Males** tend to be more prevalent in severe obesity levels, while **females** are more evenly distributed.
 - **Insufficient_Weight & Normal_Weigh**: These categories have a relatively balanced gender distribution, though females slightly outnumber males.
 - **Overweight (Level I & II)**: More males than females appear in these categories, suggesting that men are more likely to be overweight.
 - **Obesity (Type I, II, III)**: The proportion of males increases significantly in severe obesity levels.Obesity Type III (Most Severe) has the highest number of males, indicating a potential gender-related difference in obesity trends.
-
-## Implication: 
+ ### Implication: 
 - Men tend to have a higher prevalence of obesity than women, especially in severe obesity categories.
  - Women are more evenly distributed across weight categories, while men are more concentrated in overweight and obesity levels.
 - Gender differences in obesity may be linked to lifestyle, metabolism, or other health factors.
-
 #### Overall Summary
 - Younger individuals are more likely to be underweight or normal weight.
 - Middle-aged individuals show the highest prevalence of obesity, with a broad range of ages affected.
@@ -485,33 +505,11 @@ There are a few risks to consider, but each has a clear plan to address them. Fi
 The model aims to create a positive impact and raise awareness across several key sectors. In healthcare, it supports preventive measures and enables more targeted interventions. For governments and policymakers, it offers evidence-based insights to guide public health initiatives and inform policy decisions. Individuals also benefit by gaining valuable knowledge that empowers them to make informed lifestyle choices and take control of their health.
 
 ---
+# Machine learning results
 
-# 🧮**Machine Learning Results**
-
+-  #### Title: Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
 
 In this project, alongside data visualization and exploratory analysis, machine learning models are employed to predict obesity levels using data related to physical activity and dietary habits. The process involves several key steps: data preprocessing, model training, evaluation, and visualization of results through confusion matrix plots and ROC curves.
-
-
-<details>
-  <summary>📌 <em>CLICK HERE TO READ MORE</em> 📌</summary>
- <p>
-  
-# Top 10 Important Features Random Forrest
-
-This visualization represents the feature importance scores for different variables in our dataset, categorized into **Demographics, Body Measurements** (e.g., Weight, Height), and **Lifestyle Factors** (e.g., Eating habits, Physical Activity, Technology Usage). The interactive nature of the chart allows users to explore the relative impact of each feature on the model’s predictions.
-
-### Key Insights
-- **Weight** is the most influential feature with a score of **0.25**, followed by **Age (0.15)** and **Height (0.10)**.
-- **Eating Habits**, such as **FCVC (Frequency of Vegetable Consumption) and NCP (Number of Main Meals per Day)**, also play a crucial role.
-- **Other Lifestyle Factors**, such as **CH2O (Daily Water Intake) and CALC_sometimes (Occasional Alcohol Consumption)**, contribute to the model but have lower importance scores.
-- **Physical Activity (FAF - Physical Activity Frequency)** has a minor influence compared to other factors.
-
-### Interpretation
-Understanding the importance of these features helps in identifying key factors influencing the outcome and allows for targeted interventions or recommendations. The interactive elements enable further exploration by hovering over bars for exact values.
-
-<img src="images/interactive_feature_importance_by_category.png" alt="Bar Chart" height="400">
-
-## Predicting Obesity Levels Using Random Forest and Support Vector Machine Learning Models Based on Physical Activity and Dietary Habits
 
 **Data Preprocessing:** As previously discussed, the dataset, containing features related to physical activity and dietary habits, is  cleaned and prepared. Features are categorized into numeric and categorical types. Numeric features are standardized using StandardScaler, while categorical features are encoded using OneHotEncoder. This preprocessing ensures that the data is in a suitable format for model training.
 
@@ -530,12 +528,10 @@ Understanding the importance of these features helps in identifying key factors 
 </div>
 
 - **Insights:**
-
    - Both models demonstrate strong performance across all metrics, with the Random Forest model slightly outperforming the SVM model in each category.
    - While both models perform well, further tuning and feature engineering could potentially enhance both models especially the SVM model's performance to match or exceed that of the Random Forest model.
 
 **Confusion Matrix Plots:** Confusion matrices are plotted for both models to visualize the distribution of true positives, false positives, true negatives, and false negatives. These plots help identify specific areas where the models perform well or struggle, such as misclassifying certain obesity levels.
-
 
 ![confusion matrix](images/Obesity_estimation_confusion_matrix_results.png)
 
@@ -545,16 +541,11 @@ Understanding the importance of these features helps in identifying key factors 
 
 **ROC Curve Analysis:** The Receiver Operating Characteristic (ROC) curves are generated for each class in a multi-class setting. By binarizing the labels, the ROC curves and Area Under the Curve (AUC) scores are computed for each class and a macro-average. These curves provide a visual representation of the models' ability to distinguish between different obesity levels, highlighting their discriminative power. 
 
-
 ![ROC curve](images/Obesity_estimation_ROC_curves_results.png)
 
 **Overall Analysis of the ROC curve plot:**
 - Both models exhibit strong performance, with Random Forest slightly outperforming SVM in terms of macro-average AUC.
 - The models perform exceptionally well in distinguishing certain classes, such as Obesity_Type_I and Insufficient_Weight, but face challenges with others like Overweight_Level_I and Obesity_Type_II.
-
-</p>
-</details>
-
 ---
 
 # 💡**Conclusion**
