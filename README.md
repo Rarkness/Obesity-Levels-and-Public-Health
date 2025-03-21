@@ -530,8 +530,6 @@ Understanding the importance of these features helps in identifying key factors 
 
 </div>
 
-<br>
-
 - **Insights:**
 
    - Both models demonstrate strong performance across all metrics, with the Random Forest model slightly outperforming the SVM model in each category.
