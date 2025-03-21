@@ -1,0 +1,3 @@
+,Accuracy,precision,recall,f1_score
+randomforest_predictions,0.945,0.948,0.945,0.946
+svm_predictions,0.914,0.916,0.914,0.914
