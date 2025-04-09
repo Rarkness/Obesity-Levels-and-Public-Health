@@ -42,13 +42,6 @@
 
 ---
 
-# **Team Videos**
-[Bitewulign Mekonnen](https://www.youtube.com/watch?v=ax7Q7RSQqnk)<br>
-[Yalda Rahmati](https://www.loom.com/share/f859f896ea5740c6bbe29666c7c2ea9f?sid=966a52e4-e0bb-49cd-a46f-96076d6fa123)<br>
-
-
----
-
 # 📝**Project Overview**
 
 As part of the Data Science Certificate program at the University of Toronto’s Data Sciences Institute, we selected the Estimation of Obesity Levels Based on Eating Habits and Physical Condition dataset and conducted a compelling study on which lifestyle factors have the greatest impact on obesity levels, applying the analytical and technical skills we developed throughout the course.
